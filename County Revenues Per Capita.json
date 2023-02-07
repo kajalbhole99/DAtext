@@ -1,0 +1,1677 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "da2q-agh9",
+      "name" : "County Revenues Per Capita",
+      "assetType" : "dataset",
+      "attribution" : "California State Controller's Office",
+      "averageRating" : 0,
+      "category" : "Counties",
+      "createdAt" : 1514495466,
+      "description" : "Per capita values are calculated by dividing the estimated population into total revenues per county, per fiscal year.",
+      "displayType" : "table",
+      "downloadCount" : 889,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1541450337,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "locale" : "en_US",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 29833544,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1538685229,
+      "publicationGroup" : 14748264,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1668534069,
+      "rowsUpdatedBy" : "w7vx-4n3g",
+      "tableId" : 15561223,
+      "totalTimesRated" : 0,
+      "viewCount" : 2007,
+      "viewLastModified" : 1668534068,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1538685229,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 644309,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1538685229,
+        "workflowId" : 2016,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "w7vx-4n3g",
+          "displayName" : "Matthew"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 377556049,
+        "name" : "Entity Name",
+        "dataTypeName" : "text",
+        "fieldName" : "entity_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 58955859,
+        "width" : 126,
+        "cachedContents" : {
+          "largest" : "Yuba",
+          "non_null" : "1083",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Butte",
+            "count" : "19"
+          }, {
+            "item" : "Stanislaus",
+            "count" : "19"
+          }, {
+            "item" : "Alpine",
+            "count" : "19"
+          }, {
+            "item" : "Contra Costa",
+            "count" : "19"
+          }, {
+            "item" : "Santa Cruz",
+            "count" : "19"
+          }, {
+            "item" : "Nevada",
+            "count" : "19"
+          }, {
+            "item" : "Modoc",
+            "count" : "19"
+          }, {
+            "item" : "Lassen",
+            "count" : "19"
+          }, {
+            "item" : "Humboldt",
+            "count" : "19"
+          }, {
+            "item" : "San Joaquin",
+            "count" : "19"
+          }, {
+            "item" : "Sutter",
+            "count" : "19"
+          }, {
+            "item" : "Kern",
+            "count" : "19"
+          }, {
+            "item" : "Colusa",
+            "count" : "19"
+          }, {
+            "item" : "Amador",
+            "count" : "19"
+          }, {
+            "item" : "Santa Clara",
+            "count" : "19"
+          }, {
+            "item" : "Tuolumne",
+            "count" : "19"
+          }, {
+            "item" : "Ventura",
+            "count" : "19"
+          }, {
+            "item" : "San Bernardino",
+            "count" : "19"
+          }, {
+            "item" : "Placer",
+            "count" : "19"
+          }, {
+            "item" : "Calaveras",
+            "count" : "19"
+          } ],
+          "smallest" : "Alameda",
+          "not_null" : "912",
+          "count" : "1083",
+          "cardinality" : "57"
+        },
+        "format" : { }
+      }, {
+        "id" : 377556050,
+        "name" : "Fiscal Year",
+        "dataTypeName" : "number",
+        "fieldName" : "fiscal_year",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 58955860,
+        "width" : 91,
+        "cachedContents" : {
+          "largest" : "2021",
+          "non_null" : "1083",
+          "average" : "2010",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2021",
+            "count" : "57"
+          }, {
+            "item" : "2018",
+            "count" : "57"
+          }, {
+            "item" : "2011",
+            "count" : "57"
+          }, {
+            "item" : "2012",
+            "count" : "57"
+          }, {
+            "item" : "2003",
+            "count" : "57"
+          }, {
+            "item" : "2016",
+            "count" : "57"
+          }, {
+            "item" : "2010",
+            "count" : "57"
+          }, {
+            "item" : "2015",
+            "count" : "57"
+          }, {
+            "item" : "2007",
+            "count" : "57"
+          }, {
+            "item" : "2009",
+            "count" : "57"
+          }, {
+            "item" : "2019",
+            "count" : "57"
+          }, {
+            "item" : "2005",
+            "count" : "57"
+          }, {
+            "item" : "2014",
+            "count" : "57"
+          }, {
+            "item" : "2013",
+            "count" : "57"
+          }, {
+            "item" : "2008",
+            "count" : "57"
+          }, {
+            "item" : "2017",
+            "count" : "57"
+          }, {
+            "item" : "2006",
+            "count" : "57"
+          }, {
+            "item" : "2020",
+            "count" : "57"
+          }, {
+            "item" : "2004",
+            "count" : "57"
+          } ],
+          "smallest" : "2003",
+          "not_null" : "912",
+          "count" : "1083",
+          "sum" : "1718550",
+          "cardinality" : "19"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 377556051,
+        "name" : "Total Revenues",
+        "dataTypeName" : "number",
+        "fieldName" : "total_revenues",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 58955861,
+        "width" : 139,
+        "cachedContents" : {
+          "largest" : "32265763268",
+          "non_null" : "1083",
+          "average" : "1015429853.970760",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "2"
+          }, {
+            "item" : "1426550262",
+            "count" : "1"
+          }, {
+            "item" : "50944994",
+            "count" : "1"
+          }, {
+            "item" : "614609630",
+            "count" : "1"
+          }, {
+            "item" : "5203412227",
+            "count" : "1"
+          }, {
+            "item" : "54068900",
+            "count" : "1"
+          }, {
+            "item" : "552168265",
+            "count" : "1"
+          }, {
+            "item" : "77625660",
+            "count" : "1"
+          }, {
+            "item" : "51388775",
+            "count" : "1"
+          }, {
+            "item" : "2366341383",
+            "count" : "1"
+          }, {
+            "item" : "754029279",
+            "count" : "1"
+          }, {
+            "item" : "323448500",
+            "count" : "1"
+          }, {
+            "item" : "534080222",
+            "count" : "1"
+          }, {
+            "item" : "47582245",
+            "count" : "1"
+          }, {
+            "item" : "334491339",
+            "count" : "1"
+          }, {
+            "item" : "333516608",
+            "count" : "1"
+          }, {
+            "item" : "778984684",
+            "count" : "1"
+          }, {
+            "item" : "176486192",
+            "count" : "1"
+          }, {
+            "item" : "33238867",
+            "count" : "1"
+          }, {
+            "item" : "1117644563",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "not_null" : "912",
+          "count" : "1083",
+          "sum" : "868192525145",
+          "cardinality" : "1082"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 377556052,
+        "name" : "Estimated Population",
+        "dataTypeName" : "number",
+        "fieldName" : "estimated_population",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 58955862,
+        "width" : 154,
+        "cachedContents" : {
+          "largest" : "10441080",
+          "non_null" : "1083",
+          "average" : "649087.3555555556",
+          "null" : "0",
+          "top" : [ {
+            "item" : "133302",
+            "count" : "2"
+          }, {
+            "item" : "280101",
+            "count" : "2"
+          }, {
+            "item" : "18515",
+            "count" : "2"
+          }, {
+            "item" : "44796",
+            "count" : "2"
+          }, {
+            "item" : "3207",
+            "count" : "2"
+          }, {
+            "item" : "36375",
+            "count" : "1"
+          }, {
+            "item" : "182019",
+            "count" : "1"
+          }, {
+            "item" : "1123429",
+            "count" : "1"
+          }, {
+            "item" : "45207",
+            "count" : "1"
+          }, {
+            "item" : "156492",
+            "count" : "1"
+          }, {
+            "item" : "88378",
+            "count" : "1"
+          }, {
+            "item" : "1954286",
+            "count" : "1"
+          }, {
+            "item" : "134648",
+            "count" : "1"
+          }, {
+            "item" : "1335368",
+            "count" : "1"
+          }, {
+            "item" : "13319",
+            "count" : "1"
+          }, {
+            "item" : "45084",
+            "count" : "1"
+          }, {
+            "item" : "136002",
+            "count" : "1"
+          }, {
+            "item" : "1007229",
+            "count" : "1"
+          }, {
+            "item" : "414509",
+            "count" : "1"
+          }, {
+            "item" : "64387",
+            "count" : "1"
+          } ],
+          "smallest" : "1079",
+          "not_null" : "912",
+          "count" : "1083",
+          "sum" : "554969689",
+          "cardinality" : "1078"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 377556053,
+        "name" : "Revenues Per Capita",
+        "dataTypeName" : "number",
+        "fieldName" : "revenues_per_capita",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 58955863,
+        "width" : 145,
+        "cachedContents" : {
+          "largest" : "19906",
+          "non_null" : "1083",
+          "average" : "2062.346198830409",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1504",
+            "count" : "4"
+          }, {
+            "item" : "1493",
+            "count" : "4"
+          }, {
+            "item" : "1520",
+            "count" : "4"
+          }, {
+            "item" : "1758",
+            "count" : "4"
+          }, {
+            "item" : "1489",
+            "count" : "3"
+          }, {
+            "item" : "1454",
+            "count" : "3"
+          }, {
+            "item" : "1821",
+            "count" : "3"
+          }, {
+            "item" : "1470",
+            "count" : "3"
+          }, {
+            "item" : "1510",
+            "count" : "3"
+          }, {
+            "item" : "1532",
+            "count" : "3"
+          }, {
+            "item" : "1788",
+            "count" : "3"
+          }, {
+            "item" : "1984",
+            "count" : "3"
+          }, {
+            "item" : "1730",
+            "count" : "3"
+          }, {
+            "item" : "1629",
+            "count" : "3"
+          }, {
+            "item" : "1436",
+            "count" : "3"
+          }, {
+            "item" : "1544",
+            "count" : "3"
+          }, {
+            "item" : "1588",
+            "count" : "3"
+          }, {
+            "item" : "1647",
+            "count" : "3"
+          }, {
+            "item" : "1478",
+            "count" : "3"
+          }, {
+            "item" : "1707",
+            "count" : "3"
+          } ],
+          "smallest" : "0",
+          "not_null" : "912",
+          "count" : "1083",
+          "sum" : "1763306",
+          "cardinality" : "858"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rowLabel" : "",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "w7vx-4n3g",
+        "displayName" : "Matthew",
+        "profileImageUrlLarge" : "/api/users/w7vx-4n3g/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/w7vx-4n3g/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/w7vx-4n3g/profile_images/TINY",
+        "screenName" : "Matthew",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "w7vx-4n3g",
+        "displayName" : "Matthew",
+        "profileImageUrlLarge" : "/api/users/w7vx-4n3g/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/w7vx-4n3g/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/w7vx-4n3g/profile_images/TINY",
+        "screenName" : "Matthew",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-47p7.ksut-5kbt", "00000000-0000-0000-FFBA-DB24C4D719D0", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2021", "4251409856", "1662370", "2557" ]
+, [ "row-tx2w_4km9-vbn8", "00000000-0000-0000-01DD-9DDB6D5AA5D5", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2020", "3752904942", "1670834", "2246" ]
+, [ "row-pafd.izum-9xhx", "00000000-0000-0000-105F-5364C3707EA8", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2019", "3609996506", "1669301", "2163" ]
+, [ "row-bzgp.ck42_jc7u", "00000000-0000-0000-4F21-9DE93D85BB07", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2018", "3057808028", "1660202", "1842" ]
+, [ "row-gu5e_zws9-z8vt", "00000000-0000-0000-3B40-AD64394D3553", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2017", "2949248612", "1645359", "1792" ]
+, [ "row-fyqn-au5b.ks2s", "00000000-0000-0000-91FE-5538B4A1DA36", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2016", "2638195535", "1627865", "1621" ]
+, [ "row-n2j5.sdm7_ugvg", "00000000-0000-0000-F80F-DC8DBF0A495E", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2015", "2459908014", "1594569", "1543" ]
+, [ "row-2d5x.evhx_4zhr", "00000000-0000-0000-C717-2CE50E8D23C9", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2014", "2448572609", "1573254", "1556" ]
+, [ "row-592e-26xb~pcq5", "00000000-0000-0000-B947-209DEC06AEBF", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2013", "2366341383", "1548681", "1528" ]
+, [ "row-vpab_xiru.t9a9", "00000000-0000-0000-7CC5-4851AA7F14B8", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2012", "2317607829", "1532137", "1513" ]
+, [ "row-gtf8.djsb.effq", "00000000-0000-0000-04F9-57F30D48A469", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2011", "2201322275", "1521157", "1447" ]
+, [ "row-xau2_w3ev-wba8", "00000000-0000-0000-A772-B0E682A1605E", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2010", "2049650443", "1574857", "1301" ]
+, [ "row-s3m5~7sqw~9b8i", "00000000-0000-0000-523C-136CA2B961DE", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2009", "2027021278", "1556657", "1302" ]
+, [ "row-c7eh_b2v5-pfwn", "00000000-0000-0000-BF52-CB5191F58D5A", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2008", "2062757425", "1543000", "1337" ]
+, [ "row-52jf-w7et~z2gw", "00000000-0000-0000-BEDD-635CFDEC3CA7", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2007", "1980472861", "1526148", "1298" ]
+, [ "row-m63c~z859~35mn", "00000000-0000-0000-39CD-517771E88B8D", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2006", "1962610109", "1510303", "1299" ]
+, [ "row-ya4a.tdnm_rfau", "00000000-0000-0000-ACB0-079292865EAF", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2005", "1877145984", "1507500", "1245" ]
+, [ "row-vntu_3rhh~aihp", "00000000-0000-0000-63C1-1384BDED05E5", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2004", "1636539472", "1498020", "1092" ]
+, [ "row-x9je-3yt4~y7vi", "00000000-0000-0000-F75A-2BC992E68F08", 0, 1668534069, null, 1668534069, null, "{ }", "Alameda", "2003", "1818700520", "1496218", "1216" ]
+, [ "row-cz3d.b9vf_ydya", "00000000-0000-0000-8DC9-ED9C3B1D21BF", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2021", "20139080", "1195", "16853" ]
+, [ "row-vjmp~ku3a-pvi3", "00000000-0000-0000-813B-BED86CEE617E", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2020", "22732682", "1142", "19906" ]
+, [ "row-w6yf.gntr.ephn", "00000000-0000-0000-AC0C-17D65F781CE2", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2019", "21085207", "1162", "18146" ]
+, [ "row-si94_d6cu-38tx", "00000000-0000-0000-0EEA-3773EAD3CF51", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2018", "20470009", "1154", "17738" ]
+, [ "row-dtub~7nrf~uipw", "00000000-0000-0000-1DA5-C8E88BCFA4AF", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2017", "18935581", "1151", "16451" ]
+, [ "row-cucy~62dm~89xn", "00000000-0000-0000-2231-F587F8A7502D", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2016", "17024071", "1166", "14600" ]
+, [ "row-ewr2.kepq.wvaq", "00000000-0000-0000-564C-0155C20D0B75", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2015", "16682857", "1121", "14882" ]
+, [ "row-57qm~fihw-r4pm", "00000000-0000-0000-41FE-61FB06275F57", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2014", "16048039", "1079", "14873" ]
+, [ "row-25jn-cjsh~qcgx", "00000000-0000-0000-A15F-C2905885127D", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2013", "17486688", "1087", "16087" ]
+, [ "row-fx2y-xyk8.e67t", "00000000-0000-0000-8F1A-5DE329317E78", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2012", "17958213", "1097", "16370" ]
+, [ "row-e6db~8kp2-88a2", "00000000-0000-0000-8ACD-987C72639A22", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2011", "17643923", "1176", "15003" ]
+, [ "row-adav-gfhp_hpsx", "00000000-0000-0000-8001-6825AD701426", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2010", "17447487", "1189", "14674" ]
+, [ "row-56mq~mzg8~mds7", "00000000-0000-0000-6F8E-2400D0573D48", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2009", "16151545", "1201", "13448" ]
+, [ "row-8b75.ngay-yrn7", "00000000-0000-0000-84A1-13450F8E3C55", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2008", "15375601", "1222", "12582" ]
+, [ "row-2386_g8nh~wp26", "00000000-0000-0000-5651-C32C6FFB9CF8", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2007", "14582555", "1261", "11564" ]
+, [ "row-fshn_jir3-d4fa", "00000000-0000-0000-289C-CBD84D183999", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2006", "12567537", "1241", "10127" ]
+, [ "row-52jw~zasy~kuvn", "00000000-0000-0000-1E33-DCBFBB4222D1", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2005", "10801917", "1262", "8559" ]
+, [ "row-yt9f~puwb_kgr4", "00000000-0000-0000-D115-61E68D979D4B", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2004", "12227703", "1275", "9590" ]
+, [ "row-gnqr-583c-d3ge", "00000000-0000-0000-034A-B245F37122A5", 0, 1668534069, null, 1668534069, null, "{ }", "Alpine", "2003", "9466804", "1208", "7837" ]
+, [ "row-d33s-xkv5_pcj7", "00000000-0000-0000-FA89-F5CB2F703EFF", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2021", "114217399", "40287", "2835" ]
+, [ "row-ii7k-37gp.iqyi", "00000000-0000-0000-DF60-B60BD1E6C12C", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2020", "98957071", "37676", "2627" ]
+, [ "row-aity-sxkp_eqa8", "00000000-0000-0000-8B2F-62E628DF2237", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2019", "91942520", "38294", "2401" ]
+, [ "row-equr.7yi7~gfh5", "00000000-0000-0000-9B30-DF9B41FAEBFC", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2018", "77617058", "38094", "2038" ]
+, [ "row-r7ft~jfut_u5wi", "00000000-0000-0000-C662-CD5BC2C7D937", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2017", "73472682", "38382", "1914" ]
+, [ "row-mntd_pvsw~qjtp", "00000000-0000-0000-1067-BD05D5CBDC1E", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2016", "67084790", "37707", "1779" ]
+, [ "row-xwtb_w5r8.3pmb", "00000000-0000-0000-6625-F7CD57819718", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2015", "69467537", "36312", "1913" ]
+, [ "row-jecs~f53r_3pv2", "00000000-0000-0000-20AD-A50EF259B577", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2014", "63278973", "36151", "1750" ]
+, [ "row-2i8i_8ypq-qy86", "00000000-0000-0000-A4FB-CA3759F6FD36", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2013", "57628482", "36741", "1569" ]
+, [ "row-u5xc-pbjm.y4gz", "00000000-0000-0000-DAB6-E93D629ACDB0", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2012", "57723779", "37120", "1555" ]
+, [ "row-8x93-yjgr~dk73", "00000000-0000-0000-CC82-FE89FBE50F14", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2011", "57227655", "37911", "1510" ]
+, [ "row-k9q5_xxs8~4ihx", "00000000-0000-0000-BE3B-528BC7BA987F", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2010", "58143071", "38022", "1529" ]
+, [ "row-n8hp.yd2y.nsvk", "00000000-0000-0000-EDD7-DA840039CDFC", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2009", "60749096", "38080", "1595" ]
+, [ "row-2qtx_kif9_x9r8", "00000000-0000-0000-8A95-EF985ED70FC8", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2008", "70732123", "37943", "1864" ]
+, [ "row-42jk.cy8y.fqe9", "00000000-0000-0000-B44B-530766420737", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2007", "63557656", "38435", "1654" ]
+, [ "row-uiq9_5i9m-sfyg", "00000000-0000-0000-DAD1-D36E189C6B29", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2006", "64674346", "38133", "1696" ]
+, [ "row-n77h~4gz7.pehe", "00000000-0000-0000-A4F4-3BB04D1E9DA6", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2005", "47894068", "37574", "1275" ]
+, [ "row-qfyd_yg57-krra", "00000000-0000-0000-982A-E46B256F7428", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2004", "41442452", "36834", "1125" ]
+, [ "row-ekva.65xk.diqz", "00000000-0000-0000-3D5D-6F92962894FD", 0, 1668534069, null, 1668534069, null, "{ }", "Amador", "2003", "40731328", "36523", "1115" ]
+, [ "row-hmya~wn2p~9meu", "00000000-0000-0000-5AC7-9DF9E2C3FA62", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2021", "528622640", "206640", "2558" ]
+, [ "row-3qhy_f7pr.x883", "00000000-0000-0000-5A9B-2E3C63EEB6E6", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2020", "716123502", "210291", "3405" ]
+, [ "row-renp~7dgr-wvtq", "00000000-0000-0000-4CD8-614EEA71559D", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2019", "462029993", "226466", "2040" ]
+, [ "row-f5pd~m5ik.85t5", "00000000-0000-0000-956C-2AE3B00EE7D1", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2018", "423294813", "227621", "1860" ]
+, [ "row-s3jt-jazy_aq38", "00000000-0000-0000-1EAF-B782315F44F9", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2017", "405180116", "226404", "1790" ]
+, [ "row-vrz8~fd43~jem6", "00000000-0000-0000-B79A-D56DCA3A8AC5", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2016", "369579116", "224601", "1645" ]
+, [ "row-qtym-u86b_b8su", "00000000-0000-0000-BD41-32C567039FA7", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2015", "364962980", "224323", "1627" ]
+, [ "row-6pe6~m4gc-5yzx", "00000000-0000-0000-BC7E-52E22F64329D", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2014", "339367456", "222316", "1527" ]
+, [ "row-2s62.jdyd.364t", "00000000-0000-0000-7C7E-A314F34FF005", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2013", "347423855", "221485", "1569" ]
+, [ "row-yehm-w7i3_vgss", "00000000-0000-0000-2607-0C710CA10995", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2012", "351293697", "221273", "1588" ]
+, [ "row-iq3v_x93z-vv64", "00000000-0000-0000-ECDF-B10361ABCEE9", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2011", "349752594", "221388", "1580" ]
+, [ "row-wrbi-c5gp-knmb", "00000000-0000-0000-006B-6909EC75189F", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2010", "354192869", "221768", "1597" ]
+, [ "row-84zb_cpi2-rwgq", "00000000-0000-0000-4FEC-09FABFC9AF01", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2009", "351519630", "220748", "1592" ]
+, [ "row-ra4f_xhu4~mm66", "00000000-0000-0000-DE91-A9DCC0034676", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2008", "336162674", "220407", "1525" ]
+, [ "row-58cj_6kyg-3wzj", "00000000-0000-0000-218A-5FBB47CFAE9D", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2007", "334491339", "218069", "1534" ]
+, [ "row-6j6a_4mfg.8zg2", "00000000-0000-0000-869D-3DE68040FA9F", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2006", "321824838", "217209", "1482" ]
+, [ "row-sime.quib-ck35", "00000000-0000-0000-7D2F-9E4EAE0E7112", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2005", "321627242", "214119", "1502" ]
+, [ "row-m43t.jwg6-9s6f", "00000000-0000-0000-ABF7-41A2E817C4A0", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2004", "328484057", "212745", "1544" ]
+, [ "row-tpue~eb8e~23vi", "00000000-0000-0000-8C20-8D152C46C3D3", 0, 1668534069, null, 1668534069, null, "{ }", "Butte", "2003", "279156583", "210367", "1327" ]
+, [ "row-bskr.fss7-x3j5", "00000000-0000-0000-A765-CA48681F9EEC", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2021", "128028489", "45250", "2829" ]
+, [ "row-fa53_i6ub~8zr4", "00000000-0000-0000-6BD8-608F0E2DA71B", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2020", "115552446", "45023", "2567" ]
+, [ "row-gqns~qcch~b4p5", "00000000-0000-0000-6C80-50B5867963BE", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2019", "105939142", "45117", "2348" ]
+, [ "row-uvhh~vshc-pjb4", "00000000-0000-0000-34E5-30FF54299853", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2018", "111775477", "45157", "2475" ]
+, [ "row-khdb.mgda~4aq3", "00000000-0000-0000-F5BB-EF835C26B540", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2017", "103847016", "45168", "2299" ]
+, [ "row-uwua~my5e-bih6", "00000000-0000-0000-07D4-C80AF3B182D7", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2016", "86883793", "45207", "1922" ]
+, [ "row-eu8s~4fhj_dknw", "00000000-0000-0000-27D3-3AC0C34E3C4B", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2015", "81676412", "45668", "1788" ]
+, [ "row-ffev~49bc_6udh", "00000000-0000-0000-9E2E-CCD18925D15C", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2014", "77973970", "44650", "1746" ]
+, [ "row-66db-n7kb_xmkr", "00000000-0000-0000-D17A-224E2B9082B4", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2013", "90279898", "44932", "2009" ]
+, [ "row-ifd5-u64u.bvnv", "00000000-0000-0000-720E-234D8BB080C2", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2012", "86054083", "44840", "1919" ]
+, [ "row-fze6-wupy_mj3e", "00000000-0000-0000-06D5-052341DE0CF7", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2011", "73727362", "45693", "1614" ]
+, [ "row-c8mf.ua9y~wv4q", "00000000-0000-0000-04A5-A1192C2C94F6", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2010", "71786719", "45870", "1565" ]
+, [ "row-dfsz.5pm6_jf7z", "00000000-0000-0000-EE9E-D9D3EF52DF2D", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2009", "108145525", "45987", "2352" ]
+, [ "row-897w-va25~bdny", "00000000-0000-0000-A86B-83309810A647", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2008", "80353776", "46127", "1742" ]
+, [ "row-rpty~wc84-ujje", "00000000-0000-0000-97FE-63639899F321", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2007", "72812583", "46028", "1582" ]
+, [ "row-3ub2~92tp-r5nt", "00000000-0000-0000-5808-86713739E20F", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2006", "72584605", "45711", "1588" ]
+, [ "row-bz65-idzu.msem", "00000000-0000-0000-0195-BBC03C66B8CC", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2005", "62579929", "44796", "1397" ]
+, [ "row-mai4.gtni.zkuz", "00000000-0000-0000-0B0D-22B25AD4E776", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2004", "53445358", "43339", "1233" ]
+, [ "row-qa3z.dwaw.zivu", "00000000-0000-0000-FF53-1EC1D65EC555", 0, 1668534069, null, 1668534069, null, "{ }", "Calaveras", "2003", "53240047", "42458", "1254" ]
+, [ "row-2wgj_ceee-mnx2", "00000000-0000-0000-5133-75571594772C", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2021", "77625660", "21773", "3565" ]
+, [ "row-b36k.frqg~ixbw", "00000000-0000-0000-1926-6007C18AB227", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2020", "69785072", "21902", "3186" ]
+, [ "row-56m8-k269-wq7v", "00000000-0000-0000-528B-E7795B543BC7", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2019", "66171628", "22117", "2992" ]
+, [ "row-jvv5-pgfv.ddnq", "00000000-0000-0000-C406-315FA40C6F1D", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2018", "61167967", "22098", "2768" ]
+, [ "row-b7pw~ujwg_wsxr", "00000000-0000-0000-A1D0-95B6CF2C966E", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2017", "56417543", "22043", "2559" ]
+, [ "row-8gnk~kqxm_u6q6", "00000000-0000-0000-3FF1-E38033EEE868", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2016", "55837373", "21948", "2544" ]
+, [ "row-4kds_g6th_g4tw", "00000000-0000-0000-D663-0BC46FA20CBD", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2015", "55828686", "21715", "2571" ]
+, [ "row-4t79~uejs_d4x6", "00000000-0000-0000-7CD2-542BCF34747C", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2014", "56276403", "21660", "2598" ]
+, [ "row-jdrz_8xew-k77g", "00000000-0000-0000-9591-E0E0EF3A296C", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2013", "57956739", "21674", "2674" ]
+, [ "row-kbsr_5jh6.d2n2", "00000000-0000-0000-C1F5-1A1E3ECBF45A", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2012", "53067227", "21690", "2447" ]
+, [ "row-3jk7_7wwv-d4hq", "00000000-0000-0000-52F5-25814CFE5280", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2011", "47582983", "21593", "2204" ]
+, [ "row-i3mq~74ys-hksc", "00000000-0000-0000-352A-9033AE21AC36", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2010", "51041062", "22206", "2299" ]
+, [ "row-dfaw-kk5w~5k67", "00000000-0000-0000-545A-2ED20BB611F8", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2009", "45395410", "21997", "2064" ]
+, [ "row-kfxk_c6p7-5fhb", "00000000-0000-0000-5827-58922038047E", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2008", "51543714", "21910", "2353" ]
+, [ "row-jtjw-pegc.jdhe", "00000000-0000-0000-F100-48196DD07B4C", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2007", "41037799", "21951", "1870" ]
+, [ "row-u2bi~shzf~j94z", "00000000-0000-0000-A22B-2ADF474A4C54", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2006", "39549674", "21512", "1838" ]
+, [ "row-wq9m_x64x.64k8", "00000000-0000-0000-176E-0664BAA77C24", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2005", "34920597", "20880", "1672" ]
+, [ "row-7dwe~7wg6.fcjt", "00000000-0000-0000-5E93-CE2EA747A726", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2004", "34509274", "20105", "1716" ]
+, [ "row-2cu4-vdyw-8iz9", "00000000-0000-0000-A4B3-49328063208C", 0, 1668534069, null, 1668534069, null, "{ }", "Colusa", "2003", "35964767", "19700", "1826" ]
+, [ "row-ufbu~2zhb_matt", "00000000-0000-0000-FD2D-3035B65005AD", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2021", "4297335547", "1161324", "3700" ]
+, [ "row-mmtp~msdm~gkm9", "00000000-0000-0000-3518-EC8F0586BA86", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2020", "3809810219", "1153561", "3303" ]
+, [ "row-nsra.tbf5-qtr6", "00000000-0000-0000-82FE-D5A3ED6AEB95", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2019", "3693227329", "1155879", "3195" ]
+, [ "row-yfj3~n7sx-b2zt", "00000000-0000-0000-07ED-8402E00C578D", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2018", "3228395078", "1149363", "2809" ]
+, [ "row-5g6f~sspb.24cw", "00000000-0000-0000-89D9-7CC5387ECAC8", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2017", "3072465406", "1139513", "2696" ]
+, [ "row-ea7y~93j6_bpjm", "00000000-0000-0000-F059-F2D1C2877DC0", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2016", "2793581608", "1123429", "2487" ]
+, [ "row-m99h~ihbn-ht7g", "00000000-0000-0000-362D-AB845A7E7CD1", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2015", "2711238104", "1102871", "2458" ]
+, [ "row-9kqg~8g25-zesf", "00000000-0000-0000-9F9B-34A2649861A3", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2014", "2333410531", "1087008", "2147" ]
+, [ "row-zim6_z497-i43z", "00000000-0000-0000-0C8C-E20431A3D909", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2013", "2221080341", "1074702", "2067" ]
+, [ "row-5amf.2res_rrzq", "00000000-0000-0000-B2C7-E9F3706CC905", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2012", "2068070533", "1065117", "1942" ]
+, [ "row-zejr~vgpf-t5sd", "00000000-0000-0000-36A2-96969E1B08BB", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2011", "2051483168", "1056064", "1943" ]
+, [ "row-g2zi_xwwb~zdvt", "00000000-0000-0000-D3ED-6F4D84F6870D", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2010", "1921410709", "1073055", "1791" ]
+, [ "row-v8kc-r2mp-dbcc", "00000000-0000-0000-9633-721984145254", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2009", "1890114964", "1060435", "1782" ]
+, [ "row-c937-sycr_f4bc", "00000000-0000-0000-1FEE-0F0C742949C2", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2008", "1926983901", "1051674", "1832" ]
+, [ "row-mgmb.p2fw~au63", "00000000-0000-0000-ED0F-D37EB85FC0F8", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2007", "1862349991", "1042341", "1787" ]
+, [ "row-ykh5-eyyu-9rsp", "00000000-0000-0000-FCA2-36113C1D703F", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2006", "1734769236", "1029377", "1685" ]
+, [ "row-b7gb-jnm2-er6e", "00000000-0000-0000-1A25-316306EBB4A7", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2005", "1652419430", "1020898", "1619" ]
+, [ "row-uaym-b4t9~89u2", "00000000-0000-0000-C3D5-28EA0032CE8B", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2004", "1550299661", "1003909", "1544" ]
+, [ "row-njd3~e3me.yrc3", "00000000-0000-0000-70AC-F7C44715C0B6", 0, 1668534069, null, 1668534069, null, "{ }", "Contra Costa", "2003", "1851194815", "994908", "1861" ]
+, [ "row-ffdw-cx2n-izze", "00000000-0000-0000-8820-7EBD681B8B3D", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2021", "95118589", "27593", "3447" ]
+, [ "row-wz5c.ia7p.aarg", "00000000-0000-0000-B64E-F7754D0BE523", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2020", "81621241", "27298", "2990" ]
+, [ "row-n9xs~yxn7-wf9f", "00000000-0000-0000-34EC-172628091753", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2019", "78237636", "27401", "2855" ]
+, [ "row-bg38.nr8b_fi5p", "00000000-0000-0000-EEDF-06C97D2672EB", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2018", "79118088", "27221", "2907" ]
+, [ "row-jpd7~rssb.zsvi", "00000000-0000-0000-C0C4-89CD10669413", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2017", "68538964", "27124", "2527" ]
+, [ "row-vdmr_j5ak-yqh4", "00000000-0000-0000-DBBC-175548B5B179", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2016", "71405306", "26811", "2663" ]
+, [ "row-hwtz.47ts_4nv2", "00000000-0000-0000-5098-02332B9D6D4E", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2015", "68798879", "28031", "2454" ]
+, [ "row-atwi.7ucb_vbxd", "00000000-0000-0000-FE1F-877D10660EE9", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2014", "68122777", "28131", "2422" ]
+, [ "row-vvry-46gg.vsdt", "00000000-0000-0000-A20C-C0342AA08B50", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2013", "72932282", "28380", "2570" ]
+, [ "row-6zcj-jb7s~rs8s", "00000000-0000-0000-B4D2-D6716556C80F", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2012", "68063313", "28429", "2394" ]
+, [ "row-4q4f-ha3a.xmfn", "00000000-0000-0000-7F52-474FE542BBC9", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2011", "58053949", "28594", "2030" ]
+, [ "row-96i8.75j2~p73g", "00000000-0000-0000-CBA3-C604D2104E2E", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2010", "54213743", "29673", "1827" ]
+, [ "row-ayrj_u6p8~3btf", "00000000-0000-0000-9B76-697206968802", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2009", "58446845", "29547", "1978" ]
+, [ "row-jf8s-uvw5.zvd8", "00000000-0000-0000-8416-3AABA7A1FDD2", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2008", "56136033", "29419", "1908" ]
+, [ "row-824r_pyg3_zr57", "00000000-0000-0000-8E92-5CFD46EAAEB5", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2007", "54945082", "29341", "1873" ]
+, [ "row-bnnh.9xxm_wpca", "00000000-0000-0000-FA1B-D158892AE176", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2006", "53194593", "29196", "1822" ]
+, [ "row-dydk-yj4r.ztfr", "00000000-0000-0000-2FBF-1EA194CA929F", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2005", "50493384", "28895", "1747" ]
+, [ "row-6gyk.vnyx.qxvm", "00000000-0000-0000-0B14-F6DDD4C59221", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2004", "43902351", "28266", "1553" ]
+, [ "row-hvxb_9r8h-yv24", "00000000-0000-0000-C88C-7DE02877EE73", 0, 1668534069, null, 1668534069, null, "{ }", "Del Norte", "2003", "45211030", "27848", "1623" ]
+, [ "row-j5dt.2cvq-5f93", "00000000-0000-0000-117E-A8B3D3776BF0", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2021", "510698648", "191054", "2673" ]
+, [ "row-95e4~44b4.rv2r", "00000000-0000-0000-7522-527869512171", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2020", "462093559", "193227", "2391" ]
+, [ "row-gqqf.irz6~t56v", "00000000-0000-0000-7389-C79B6FC96179", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2019", "447199542", "191848", "2331" ]
+, [ "row-rnqu.k2rs~tvep", "00000000-0000-0000-DA9A-46CE76FF91FF", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2018", "333516608", "188399", "1770" ]
+, [ "row-2bys.6449-gbvn", "00000000-0000-0000-56EA-A349E7F57777", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2017", "320597586", "185062", "1732" ]
+, [ "row-mr2b~txvd.tc5x", "00000000-0000-0000-9D1C-293766E48C38", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2016", "310061101", "183750", "1687" ]
+, [ "row-yvyu.3n8d-w843", "00000000-0000-0000-4EE3-B4C04E58A5BD", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2015", "291471085", "184917", "1576" ]
+, [ "row-ng54.rbt5~xt4i", "00000000-0000-0000-50C7-68416F3A25B2", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2014", "293637831", "182404", "1610" ]
+, [ "row-ueza-zagh~czy3", "00000000-0000-0000-03AF-8209F0560060", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2013", "284773753", "182286", "1562" ]
+, [ "row-qht7_ugkh_j5wv", "00000000-0000-0000-E30E-28B79457D416", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2012", "271854189", "180712", "1504" ]
+, [ "row-8vv2.p66c.bxwr", "00000000-0000-0000-1DCC-94E2752B2E8F", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2011", "270739898", "182498", "1484" ]
+, [ "row-dcb5_x7s4-pcd5", "00000000-0000-0000-685E-BBF99972378C", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2010", "267749585", "182019", "1471" ]
+, [ "row-5qj6-494x~bnia", "00000000-0000-0000-A9EA-F679A4370FF5", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2009", "263433655", "180185", "1462" ]
+, [ "row-iwnj-nkhp-9fri", "00000000-0000-0000-7317-0E241DC10C60", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2008", "276044536", "179722", "1536" ]
+, [ "row-sruw_2z8c.2d2j", "00000000-0000-0000-DD2A-D069F4C00D86", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2007", "294389906", "178674", "1648" ]
+, [ "row-79rv-uyi3~b8qh", "00000000-0000-0000-9E69-0F5940E948DF", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2006", "258946904", "176204", "1470" ]
+, [ "row-mpt8_87ui_xh24", "00000000-0000-0000-CD41-0BE967F47BFB", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2005", "241378174", "173407", "1392" ]
+, [ "row-88k3.f8h3-mv7y", "00000000-0000-0000-22FB-BFC4D5E76349", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2004", "205990482", "168117", "1225" ]
+, [ "row-bmej.6qej-8fem", "00000000-0000-0000-599E-94DD674F915B", 0, 1668534069, null, 1668534069, null, "{ }", "El Dorado", "2003", "194572716", "166030", "1172" ]
+, [ "row-mean.uq42.823y", "00000000-0000-0000-E936-F564A7E2D017", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2021", "2321372157", "1009231", "2300" ]
+, [ "row-fhnb-6wh9_qqk9", "00000000-0000-0000-1621-DEBCD51D35FA", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2020", "2053548000", "1023358", "2007" ]
+, [ "row-kxtb_z8c4-2zfb", "00000000-0000-0000-5938-BDFB2A67EBCD", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2019", "1936296000", "1018241", "1902" ]
+, [ "row-cfzq~pzrx~te2v", "00000000-0000-0000-6A06-9A01616F1F3C", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2018", "1770913000", "1007229", "1758" ]
+, [ "row-4r8s-p45p_pn5g", "00000000-0000-0000-3EAC-93FB88341EC3", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2017", "1683934000", "995975", "1691" ]
+, [ "row-c7zg.v4hc-z6wx", "00000000-0000-0000-0A8A-53ACCB00EE79", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2016", "1488440576", "984541", "1512" ]
+, [ "row-ichg_aykb.97qk", "00000000-0000-0000-4532-2EDC5E27042B", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2015", "1376617063", "972297", "1416" ]
+, [ "row-jctb_pvc9-skt9", "00000000-0000-0000-E30F-4F9C42CCD629", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2014", "1318767726", "964040", "1368" ]
+, [ "row-s68j.viqj.nu3x", "00000000-0000-0000-7B66-747AFA7E3B6D", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2013", "1268655618", "952166", "1332" ]
+, [ "row-8rnz~ds62_3a3z", "00000000-0000-0000-763E-58F09435567D", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2012", "1203004648", "945711", "1272" ]
+, [ "row-7dat_hczp~gp5m", "00000000-0000-0000-FE97-02AA107D1EAC", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2011", "1227947061", "940220", "1306" ]
+, [ "row-egb6~r5fw_ktfs", "00000000-0000-0000-9B1D-BB8DFFBFD657", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2010", "1191819738", "953761", "1250" ]
+, [ "row-cdy2~339w_27r4", "00000000-0000-0000-D4FD-CD219F49CC16", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2009", "1230739830", "942298", "1306" ]
+, [ "row-d4ew.s5zx-jzjf", "00000000-0000-0000-5CF4-8972380DD55F", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2008", "1274358715", "931098", "1369" ]
+, [ "row-ziw3~pfwg-mdbt", "00000000-0000-0000-7A02-DBCA30EB0046", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2007", "1155188903", "917515", "1259" ]
+, [ "row-9etx_94gn~8ngb", "00000000-0000-0000-1CBB-E2D920AFAA80", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2006", "1164590520", "899514", "1295" ]
+, [ "row-c2v3~3sah_mk2r", "00000000-0000-0000-4CD3-4C0611A7244B", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2005", "1039583424", "883537", "1177" ]
+, [ "row-cm3a~68kx_h8fr", "00000000-0000-0000-C96B-A83DE91B343E", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2004", "1384309806", "862642", "1605" ]
+, [ "row-idxs-9qxp.75qv", "00000000-0000-0000-2C3F-F55F81BDFCA6", 0, 1668534069, null, 1668534069, null, "{ }", "Fresno", "2003", "1102218078", "841423", "1310" ]
+, [ "row-wz8t-i4w8_6bfa", "00000000-0000-0000-CFC0-D8A72E0354B7", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2021", "112784295", "28788", "3918" ]
+, [ "row-s8n2-xtdx_ayih", "00000000-0000-0000-06F5-4D182A4AA86C", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2020", "100986885", "29400", "3435" ]
+, [ "row-357v.hity_3gie", "00000000-0000-0000-CEBD-D885ED7B0995", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2019", "91677332", "29132", "3147" ]
+, [ "row-cxcd-a9ez_85hk", "00000000-0000-0000-8B54-9CB56B73053A", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2018", "84691057", "28796", "2941" ]
+, [ "row-pfny-ysnz~865r", "00000000-0000-0000-83CE-EA7151636228", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2017", "74713016", "28731", "2600" ]
+, [ "row-ge82-4urr~mj9s", "00000000-0000-0000-B547-6FFEEC6B9CEE", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2016", "63101355", "28668", "2201" ]
+, [ "row-6mju-6qee~tph6", "00000000-0000-0000-15D0-D022354AB92F", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2015", "61548445", "28728", "2142" ]
+, [ "row-4i5q_tdnc~snft", "00000000-0000-0000-D302-E3B162CEF644", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2014", "67887528", "28353", "2394" ]
+, [ "row-9jf9-y36e_sqf6", "00000000-0000-0000-C2C8-2C2C682EDEE2", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2013", "68574194", "28349", "2419" ]
+, [ "row-gvsm~q74m.9pce", "00000000-0000-0000-B86A-EF624E284909", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2012", "68505603", "28122", "2436" ]
+, [ "row-twa3_jwwt-t2zj", "00000000-0000-0000-BCFC-D1679B66CF10", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2011", "62864289", "28273", "2223" ]
+, [ "row-rmpa-7r7s.ht5z", "00000000-0000-0000-E61B-CEF20FA5FCA3", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2010", "64516031", "29434", "2192" ]
+, [ "row-9cqb_5nv5.8pkv", "00000000-0000-0000-37D4-5E7878EB8B73", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2009", "66642625", "29239", "2279" ]
+, [ "row-sg2h-mi9z~khz9", "00000000-0000-0000-1E33-37C16DE6712A", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2008", "67161299", "29195", "2300" ]
+, [ "row-rpsh_2um4~k2j7", "00000000-0000-0000-AAA6-889950FFBCB6", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2007", "63608575", "28915", "2200" ]
+, [ "row-ecmx~eh2b~7yxs", "00000000-0000-0000-E103-5C60981B85FC", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2006", "63409592", "28651", "2213" ]
+, [ "row-uspd~ysz8_pszf", "00000000-0000-0000-002D-D7D12DA6ECAB", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2005", "58140597", "28197", "2062" ]
+, [ "row-gqb6_zgie.8khw", "00000000-0000-0000-681E-5B5FE0257292", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2004", "54488446", "27756", "1963" ]
+, [ "row-bymu_uzgb~2n5v", "00000000-0000-0000-8ADF-F85740EB946E", 0, 1668534069, null, 1668534069, null, "{ }", "Glenn", "2003", "58246138", "27071", "2152" ]
+, [ "row-tw3m~rpbj~mrmt", "00000000-0000-0000-9AFC-03E95779188F", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2021", "0", "133302", "0" ]
+, [ "row-5pfu.6h9t.2p3b", "00000000-0000-0000-9105-B99E0BA6D749", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2020", "0", "133302", "0" ]
+, [ "row-kj6w.qqha.wdn9", "00000000-0000-0000-D04A-13CB8136FD7B", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2019", "388436302", "135333", "2870" ]
+, [ "row-usc8-jgub.w5aq", "00000000-0000-0000-7D41-69442ED4A708", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2018", "367766900", "136002", "2704" ]
+, [ "row-c5hs.qrds-q4zv", "00000000-0000-0000-683E-B9E6844427AC", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2017", "307219596", "136953", "2243" ]
+, [ "row-u8gi~u9xc-qw9e", "00000000-0000-0000-4679-B4589CE5D526", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2016", "278719066", "135116", "2063" ]
+, [ "row-tvjm.jjw9.q88m", "00000000-0000-0000-522C-E89F4AB32E44", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2015", "263699647", "134398", "1962" ]
+, [ "row-gchw_fqvy.s5qs", "00000000-0000-0000-6697-6758C55E8756", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2014", "255394014", "134648", "1897" ]
+, [ "row-h3c8_9sdf-62at", "00000000-0000-0000-6C88-5C173788C530", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2013", "237749673", "135209", "1758" ]
+, [ "row-thix_kmtn.p9ka", "00000000-0000-0000-F62D-FAAE6AC4795F", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2012", "242001920", "134587", "1798" ]
+, [ "row-g5zv.gwxu_pdyj", "00000000-0000-0000-7061-35478FD1FE0E", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2011", "244274587", "135263", "1806" ]
+, [ "row-gfbt_nteb.nqpu", "00000000-0000-0000-0FF0-386AADE56E7C", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2010", "238661827", "133400", "1789" ]
+, [ "row-4aq6.y8jb.6i6c", "00000000-0000-0000-3587-129CB49500D4", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2009", "228673285", "132755", "1723" ]
+, [ "row-2srf_qsez_8vkj", "00000000-0000-0000-BBD8-6597D3BBC30F", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2008", "236017089", "132821", "1777" ]
+, [ "row-9d4h_mu6t-dxwr", "00000000-0000-0000-E5AA-C5135C8DA30A", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2007", "223409244", "131959", "1693" ]
+, [ "row-9mu7.88t9-xv9d", "00000000-0000-0000-6101-076E1E642466", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2006", "204686657", "132526", "1545" ]
+, [ "row-huir-p6a3.ac4w", "00000000-0000-0000-03AD-89FC1A066262", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2005", "194127557", "131334", "1478" ]
+, [ "row-s6iq.bzc4.z7sc", "00000000-0000-0000-67D9-8D30F9B21362", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2004", "186204666", "129964", "1433" ]
+, [ "row-2i23~mcrd_nnhv", "00000000-0000-0000-FB19-FAD2A6B5FE2A", 0, 1668534069, null, 1668534069, null, "{ }", "Humboldt", "2003", "177782923", "128347", "1385" ]
+, [ "row-djvr~4gh6-fqg3", "00000000-0000-0000-7024-E06DF0A85C8B", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2021", "519690000", "179488", "2895" ]
+, [ "row-3g8p~d22b.7z7q", "00000000-0000-0000-7F28-C6E9C642FDF9", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2020", "474235215", "188777", "2512" ]
+, [ "row-xdyy.4nat.4puf", "00000000-0000-0000-E6F1-0BED0D57617E", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2019", "427565740", "190266", "2247" ]
+, [ "row-9ayt~s3ra_cutb", "00000000-0000-0000-88DF-1660F842BDA8", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2018", "439747211", "190624", "2307" ]
+, [ "row-7bc5~2imb.tund", "00000000-0000-0000-98BF-32540893A723", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2017", "438301291", "188334", "2327" ]
+, [ "row-c6fv_vknx-5dd4", "00000000-0000-0000-5547-204B85B90249", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2016", "312534987", "185831", "1682" ]
+, [ "row-dg9p_77bb.7wy3", "00000000-0000-0000-E007-B67031ACD1ED", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2015", "313139834", "183429", "1707" ]
+, [ "row-2dxt_d7w6-jjqr", "00000000-0000-0000-B764-4AD097FA574C", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2014", "289567151", "180672", "1603" ]
+, [ "row-ws4i~bj2n_9usa", "00000000-0000-0000-B613-998104347733", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2013", "272993302", "180061", "1516" ]
+, [ "row-6ntk.8x5f-g5pm", "00000000-0000-0000-0E76-961F52FB0D4B", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2012", "275783676", "177441", "1554" ]
+, [ "row-e86a~mqjd-aauw", "00000000-0000-0000-4DC6-5536B03E1612", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2011", "278154248", "176258", "1578" ]
+, [ "row-snmy~uchm_c5ft", "00000000-0000-0000-699A-C0947D8961AA", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2010", "260545518", "183029", "1424" ]
+, [ "row-66fz.9p8w.7ke4", "00000000-0000-0000-02BF-4A9E83B0A342", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2009", "261491103", "179254", "1459" ]
+, [ "row-h94u_kwze~phde", "00000000-0000-0000-2F6B-4024F0345424", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2008", "253950993", "176158", "1442" ]
+, [ "row-t7qz-9eft-gnpd", "00000000-0000-0000-0760-AE1E5D6E53D6", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2007", "241411002", "172672", "1398" ]
+, [ "row-4jff-vu54-2c8c", "00000000-0000-0000-0951-C72DA9037046", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2006", "219324284", "166585", "1317" ]
+, [ "row-ynk4.nx6w-jfx6", "00000000-0000-0000-353B-41B8FDF740FA", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2005", "210560376", "161800", "1301" ]
+, [ "row-te6g.ti2j_6v25", "00000000-0000-0000-4CBD-1D60CDA338DA", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2004", "194400228", "156562", "1242" ]
+, [ "row-63y4~jadz-h86c", "00000000-0000-0000-BC40-4D16DADDB376", 0, 1668534069, null, 1668534069, null, "{ }", "Imperial", "2003", "185651047", "150909", "1230" ]
+, [ "row-6v2t.3fwe_8ip4", "00000000-0000-0000-99EB-98E294FE71BE", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2021", "96635082", "18982", "5091" ]
+, [ "row-e52g.fphq_ka5x", "00000000-0000-0000-293F-A6F060D8DF76", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2020", "89366804", "18584", "4809" ]
+, [ "row-4vt8-bwua-kybp", "00000000-0000-0000-1DB9-E7E9D9F8F139", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2019", "84868491", "18593", "4565" ]
+, [ "row-h3tf.u2c2_gu49", "00000000-0000-0000-3C90-70C988945474", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2018", "79628705", "18577", "4286" ]
+, [ "row-x38m_e2hn-kwtf", "00000000-0000-0000-B9BC-D42A5483F6E3", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2017", "75895392", "18619", "4076" ]
+, [ "row-gegf.nxuz_37bc", "00000000-0000-0000-773D-86631BC32718", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2016", "70957422", "18650", "3805" ]
+, [ "row-ermd.wh3b_v3m3", "00000000-0000-0000-691F-14388B650D74", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2015", "68983106", "18574", "3714" ]
+, [ "row-xzqz~tegr-8azy", "00000000-0000-0000-BC6D-216FD86F7398", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2014", "68985619", "18590", "3711" ]
+, [ "row-dqia~qpgd.2bwm", "00000000-0000-0000-5CA1-FB7BB80B846C", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2013", "66259711", "18573", "3568" ]
+, [ "row-4a85.n36a~qqep", "00000000-0000-0000-809C-A329414390D1", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2012", "66330102", "18461", "3593" ]
+, [ "row-tycp_jgky-dz4s", "00000000-0000-0000-522A-8D58965C1358", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2011", "66489222", "18634", "3568" ]
+, [ "row-kgyw_d78y_qm8d", "00000000-0000-0000-51B4-3AD2D87DF120", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2010", "64079221", "18110", "3538" ]
+, [ "row-bfbq~3t8n-89n7", "00000000-0000-0000-EFBD-3419D18C3E7D", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2009", "68149212", "18049", "3776" ]
+, [ "row-a4u3_xdm6.gw69", "00000000-0000-0000-562B-408952B2B25E", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2008", "64815572", "18152", "3571" ]
+, [ "row-fbux-e9rz~e7w4", "00000000-0000-0000-5A2A-043629647F2A", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2007", "60893426", "18383", "3312" ]
+, [ "row-w9a4.n2en_cq3i", "00000000-0000-0000-800A-4D9DA3BC6AF3", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2006", "55825152", "18515", "3015" ]
+, [ "row-tyqf~a8ak-yjq4", "00000000-0000-0000-3E0A-6C68B8273663", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2005", "48845839", "18592", "2627" ]
+, [ "row-pah2-ruzb.5i9d", "00000000-0000-0000-F263-EAAAF9CA3BF1", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2004", "50064486", "18515", "2704" ]
+, [ "row-79ud~ae5v-a3gp", "00000000-0000-0000-6124-96BFA6C6CB23", 0, 1668534069, null, 1668534069, null, "{ }", "Inyo", "2003", "48725511", "18351", "2655" ]
+, [ "row-8r8z~5mk2.2eji", "00000000-0000-0000-B492-508D40DAA2A5", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2021", "2342861451", "907324", "2582" ]
+, [ "row-xe54-p4e6~w8sw", "00000000-0000-0000-07AB-42AA5EF5ECE3", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2020", "2068423396", "917553", "2254" ]
+, [ "row-xvk2-5v4p_fyaa", "00000000-0000-0000-028D-A8C72BF9508C", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2019", "1910928208", "916464", "2085" ]
+, [ "row-yj9x-cxjm_rm3y", "00000000-0000-0000-F43B-1EEEAEAD9236", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2018", "1862364108", "905801", "2056" ]
+, [ "row-4rax~9bq4_f4q3", "00000000-0000-0000-789B-7D2CC21F4BDC", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2017", "1834349504", "895112", "2049" ]
+, [ "row-xucw_7u35-hv8g", "00000000-0000-0000-CCA0-A89C3852A8F3", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2016", "1832093877", "886507", "2067" ]
+, [ "row-takf_jk2c~249h", "00000000-0000-0000-46DF-A3220EA06DD6", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2015", "1799121449", "874264", "2058" ]
+, [ "row-j6g3~msnv_3n7z", "00000000-0000-0000-7B0D-B5D891116B02", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2014", "1698256686", "873092", "1945" ]
+, [ "row-zmvw~hzfp_s545", "00000000-0000-0000-53DC-DAA44FC40920", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2013", "1677222851", "857882", "1955" ]
+, [ "row-bah6~cidj_xkbk", "00000000-0000-0000-08C8-DDBCADD84D1F", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2012", "1617401714", "850006", "1903" ]
+, [ "row-a4pb.34j3.fcj4", "00000000-0000-0000-E463-726A10A324B7", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2011", "1592131106", "846883", "1880" ]
+, [ "row-9ma8.qfx6-76d4", "00000000-0000-0000-A542-A38DFF348A2E", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2010", "1547591491", "839587", "1843" ]
+, [ "row-nd8k.3sui-xtbf", "00000000-0000-0000-3F15-B98537FE3C70", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2009", "1641270471", "827173", "1984" ]
+, [ "row-irsy.m9s4_supi", "00000000-0000-0000-165D-394A08A7CE29", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2008", "1555184986", "817517", "1902" ]
+, [ "row-vb2h_jumg~9ggw", "00000000-0000-0000-D969-353BBC1983FA", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2007", "1426550262", "801648", "1780" ]
+, [ "row-pmqk~mekz~yjqt", "00000000-0000-0000-7899-254C609758D3", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2006", "1302729622", "779869", "1670" ]
+, [ "row-jxjf.t4v7.6jsp", "00000000-0000-0000-9345-E68FC20EA137", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2005", "1194337832", "753070", "1586" ]
+, [ "row-ytgd~zc2p-vj37", "00000000-0000-0000-D1E6-29C501289541", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2004", "1089447243", "724883", "1503" ]
+, [ "row-7h7u_iv6y.j77p", "00000000-0000-0000-5FD3-7A53C2D59D40", 0, 1668534069, null, 1668534069, null, "{ }", "Kern", "2003", "1396558439", "702873", "1987" ]
+, [ "row-sh2b_j2vp~ni4f", "00000000-0000-0000-2854-B69613B6813A", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2021", "342032903", "151059", "2264" ]
+, [ "row-fi85~frht~b3zn", "00000000-0000-0000-5E04-BE2E310D5C1E", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2020", "302751573", "153608", "1971" ]
+, [ "row-ffgm-4psz~g644", "00000000-0000-0000-15E0-80B52E6892E3", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2019", "295343229", "153710", "1921" ]
+, [ "row-hjty.uz53-ea5p", "00000000-0000-0000-2378-5A6FC41C17DE", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2018", "274851463", "151662", "1812" ]
+, [ "row-d5gw.4zzz-qwyg", "00000000-0000-0000-D9F0-BCFC588A7BAD", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2017", "268613402", "149537", "1796" ]
+, [ "row-w2x5.sc97.cemt", "00000000-0000-0000-3A94-3BEF8B9D99F6", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2016", "239998723", "150373", "1596" ]
+, [ "row-u74p~r6sy-543z", "00000000-0000-0000-AA27-A6E0B8B4FAA2", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2015", "219369648", "149721", "1465" ]
+, [ "row-gvnq_yahm~2g2n", "00000000-0000-0000-9B33-A3EA4F9840A8", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2014", "195827629", "150181", "1304" ]
+, [ "row-8zcp.7yp6-ggje", "00000000-0000-0000-73BD-606B89F62535", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2013", "185983985", "152007", "1224" ]
+, [ "row-tq8w-nbmg~jmcw", "00000000-0000-0000-C6F3-A9747889F3DC", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2012", "186635959", "152419", "1224" ]
+, [ "row-iw57-gwj4~d3jq", "00000000-0000-0000-D8E7-9A423F4D3CFD", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2011", "187633021", "153365", "1223" ]
+, [ "row-9myx~krx6-prrv", "00000000-0000-0000-4643-9439607F221E", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2010", "177480965", "156289", "1136" ]
+, [ "row-dcb3.c9b2_2jca", "00000000-0000-0000-CD74-40549B9AA875", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2009", "176486192", "154743", "1141" ]
+, [ "row-ke3v~w8wn-v2yr", "00000000-0000-0000-93BE-4E3C84EF12C7", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2008", "188422534", "154434", "1220" ]
+, [ "row-cpj3_mfed~m4nu", "00000000-0000-0000-8A79-41EB9506C53C", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2007", "174045503", "151381", "1150" ]
+, [ "row-hgk9~7gx6~a9q5", "00000000-0000-0000-A0B2-4AEE1F046ED8", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2006", "163092904", "147729", "1104" ]
+, [ "row-uyr5_uxwc-zcfh", "00000000-0000-0000-0DB4-AE97C7C2F6B9", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2005", "177654912", "144732", "1227" ]
+, [ "row-yrt4.azv9~meb8", "00000000-0000-0000-CA05-D21174290A12", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2004", "141966816", "141434", "1004" ]
+, [ "row-f6jm-fdc2-wfbh", "00000000-0000-0000-E7AA-717ACB3E15B2", 0, 1668534069, null, 1668534069, null, "{ }", "Kings", "2003", "133430620", "136108", "980" ]
+, [ "row-gujw_3qgs_58nx", "00000000-0000-0000-012B-F36F421C8047", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2021", "209393648", "67651", "3095" ]
+, [ "row-ufcj~tsf8~a57g", "00000000-0000-0000-0E96-895051595391", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2020", "189781222", "64040", "2963" ]
+, [ "row-jn36-9kaw_n37g", "00000000-0000-0000-3EF7-9E8B0D922164", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2019", "187904772", "65071", "2888" ]
+, [ "row-5d3e~rt2m-mrxz", "00000000-0000-0000-098C-FB9951D3FDB6", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2018", "148872930", "65081", "2288" ]
+, [ "row-pgex~8iyd.vpwm", "00000000-0000-0000-A498-F78FE4900CC2", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2017", "141621306", "64945", "2181" ]
+, [ "row-km5i~5gkk_565i", "00000000-0000-0000-9CD6-69C8BEE73A26", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2016", "149993687", "64306", "2332" ]
+, [ "row-hs76~bdem.fwav", "00000000-0000-0000-2CD7-B1C24EA3623A", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2015", "124266357", "64918", "1914" ]
+, [ "row-rhne_bkb4~jn7u", "00000000-0000-0000-7F08-FC6ABB17927E", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2014", "122092336", "64699", "1887" ]
+, [ "row-ephi~qg7s_txqu", "00000000-0000-0000-E4FD-ECD4F4253C83", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2013", "113536967", "64531", "1759" ]
+, [ "row-neyf_t45k.8dz9", "00000000-0000-0000-596D-69B6D5288AF7", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2012", "115415359", "63266", "1824" ]
+, [ "row-ypum.cbvy~qij7", "00000000-0000-0000-1F44-58153C1371FB", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2011", "124029511", "64784", "1915" ]
+, [ "row-uay4_iiy7~axfv", "00000000-0000-0000-D077-F48C3A92300C", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2010", "114186065", "64053", "1783" ]
+, [ "row-sape.pq23-tyu2", "00000000-0000-0000-57EA-C687120600C1", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2009", "116212553", "64025", "1815" ]
+, [ "row-3yw9-7m3m_ryu7", "00000000-0000-0000-CE0D-6D517DB34A48", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2008", "122873027", "64059", "1918" ]
+, [ "row-sgpm.66pc.t7bp", "00000000-0000-0000-2CC6-F6F2F3CBCDDA", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2007", "115629643", "64276", "1799" ]
+, [ "row-35ht-4zwf~3ss5", "00000000-0000-0000-3AFC-C346A79C9C4A", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2006", "105713862", "64105", "1649" ]
+, [ "row-yp7x~mqy6_8jtj", "00000000-0000-0000-9153-D599BEE34D85", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2005", "96135828", "63250", "1520" ]
+, [ "row-6yi5_3xgq_nc8j", "00000000-0000-0000-81E5-9B37C4B4275D", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2004", "91059442", "63242", "1440" ]
+, [ "row-zx6a~a8gw.224r", "00000000-0000-0000-C378-7F0A83F506B7", 0, 1668534069, null, 1668534069, null, "{ }", "Lake", "2003", "92999016", "61307", "1517" ]
+, [ "row-6xah.kux9-9mpg", "00000000-0000-0000-385C-581AFA31E96A", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2021", "83206235", "31132", "2673" ]
+, [ "row-3zdf.cg4e_2gyk", "00000000-0000-0000-02B7-F84DD059D1D0", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2020", "81257321", "28833", "2818" ]
+, [ "row-vax2-ypiw_xw4z", "00000000-0000-0000-B2AA-42C4761B1C69", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2019", "72911743", "30150", "2418" ]
+, [ "row-2h4h~b339~fxpp", "00000000-0000-0000-C5DF-94AB2789DC87", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2018", "68779787", "30911", "2225" ]
+, [ "row-ihzs~bdsr_38h8", "00000000-0000-0000-FFB6-23B2F1C2A6B2", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2017", "64789003", "30918", "2096" ]
+, [ "row-2w4p~8cm8~hwt4", "00000000-0000-0000-EBF7-04E3FAE495EF", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2016", "63591051", "30780", "2066" ]
+, [ "row-b7jj-xmpi.4qyd", "00000000-0000-0000-F446-686F068D0203", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2015", "61709330", "32092", "1923" ]
+, [ "row-p3vu~nmsw~p3ik", "00000000-0000-0000-FE13-AA6D88637D14", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2014", "58101710", "32581", "1783" ]
+, [ "row-jgut-regv.bqe4", "00000000-0000-0000-E451-FADF0B227B4D", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2013", "53922286", "33422", "1613" ]
+, [ "row-zitt-6yik.38zg", "00000000-0000-0000-3A11-575BEDBB4DE8", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2012", "54523124", "34167", "1596" ]
+, [ "row-23ve-6vmr.9uju", "00000000-0000-0000-EC43-2246A64E8952", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2011", "58624293", "34577", "1695" ]
+, [ "row-tkvg_uvnt_xzbz", "00000000-0000-0000-D969-44EB6973E669", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2010", "58964248", "35889", "1643" ]
+, [ "row-eanr.vm6h_bsud", "00000000-0000-0000-9DE5-7357530ACCD6", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2009", "63731345", "35550", "1793" ]
+, [ "row-4vph~m8vy-uiic", "00000000-0000-0000-57F0-BD9603098FAC", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2008", "60305254", "35757", "1687" ]
+, [ "row-ma9z_3i5b-zz7j", "00000000-0000-0000-ECB6-1DF2A68B9BF8", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2007", "58514770", "36375", "1609" ]
+, [ "row-cqeq~bhr4_uwzf", "00000000-0000-0000-6777-2DD83A5544A6", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2006", "54603554", "35452", "1540" ]
+, [ "row-27jn.etjh_9hkp", "00000000-0000-0000-87BE-21DEE2661205", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2005", "51388775", "35455", "1449" ]
+, [ "row-c3kx-2utb~kbwp", "00000000-0000-0000-3C34-AD04FC9D2B60", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2004", "50031696", "34846", "1436" ]
+, [ "row-d434.m8c3-vrjp", "00000000-0000-0000-B017-E025C199041B", 0, 1668534069, null, 1668534069, null, "{ }", "Lassen", "2003", "49204285", "34955", "1408" ]
+, [ "row-6csi.aszj~4rc3", "00000000-0000-0000-575E-85B589F5AAB1", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2021", "32265763268", "9931338", "3249" ]
+, [ "row-kxun_t7zp-scg3", "00000000-0000-0000-BFC7-59D5EFC6E55C", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2020", "29959688130", "10172951", "2945" ]
+, [ "row-7aat_fg8p~yt2y", "00000000-0000-0000-1DD3-49A7679F1E53", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2019", "28159902983", "10253716", "2746" ]
+, [ "row-azs5~hyex_fq2x", "00000000-0000-0000-1659-FD31F71C194D", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2018", "24829342650", "10283729", "2414" ]
+, [ "row-ix64-t7b9~k9y4", "00000000-0000-0000-2525-480CC3A61F4D", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2017", "23422437171", "10241278", "2287" ]
+, [ "row-2n4r~q2vc.5e95", "00000000-0000-0000-65FF-103264DD8459", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2016", "20636464907", "10241335", "2015" ]
+, [ "row-kevn_vwes_shsv", "00000000-0000-0000-B6B8-7DF3B5305ED7", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2015", "20236668800", "10136559", "1996" ]
+, [ "row-bae6_66me.duqv", "00000000-0000-0000-3C8F-4E356CE4CC99", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2014", "19367532018", "10041797", "1929" ]
+, [ "row-typt_damr~q75x", "00000000-0000-0000-1F70-5F9229E1D5FC", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2013", "18594909311", "9958091", "1867" ]
+, [ "row-jnda.c4u4~ukyf", "00000000-0000-0000-721B-B68AB3504CB3", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2012", "17396447967", "9884632", "1760" ]
+, [ "row-yxgc.qhmt.7uh3", "00000000-0000-0000-6DB0-19FB03DDD0A4", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2011", "17443393072", "9858989", "1769" ]
+, [ "row-4qdb~evm4-82x3", "00000000-0000-0000-3F2B-C9D223D5BD5D", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2010", "16935092623", "10441080", "1622" ]
+, [ "row-mzzn.weeq_t8ru", "00000000-0000-0000-1BCA-D7E049261AE9", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2009", "16527927804", "10393185", "1590" ]
+, [ "row-8aw7_watu~mmwt", "00000000-0000-0000-33B0-DC196938888E", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2008", "16472752887", "10363850", "1589" ]
+, [ "row-pr6s_xywc.ukee", "00000000-0000-0000-1DD5-AE3EF22AFA2F", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2007", "15691010527", "10331939", "1519" ]
+, [ "row-v46s-cqnw_qx6a", "00000000-0000-0000-4635-63EC8945B699", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2006", "15219345614", "10245572", "1485" ]
+, [ "row-tr32~qppz_gmi7", "00000000-0000-0000-1C80-649D54BCAAF0", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2005", "15268360742", "10226506", "1493" ]
+, [ "row-77js-crv9-hxds", "00000000-0000-0000-4EA7-5E32EC08D250", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2004", "14357337383", "10102961", "1421" ]
+, [ "row-8sq6.spwu~xtaw", "00000000-0000-0000-9A18-AD93554221A1", 0, 1668534069, null, 1668534069, null, "{ }", "Los Angeles", "2003", "14138752411", "9979618", "1417" ]
+, [ "row-abwh-gjzy~z6gm", "00000000-0000-0000-09BF-E6709BB2D7CB", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2021", "386824307", "156385", "2474" ]
+, [ "row-8ns3_5jqv_nnc3", "00000000-0000-0000-67DE-E0957F400ECA", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2020", "325675940", "158147", "2059" ]
+, [ "row-ibx7.yc4v_5s8g", "00000000-0000-0000-2B89-61720F428B3B", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2019", "305627409", "159536", "1916" ]
+, [ "row-zjw8.7dsf-s2bs", "00000000-0000-0000-03FF-50AA099E1699", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2018", "267664692", "158894", "1685" ]
+, [ "row-2nbi_dbse~h9fi", "00000000-0000-0000-F742-44B806D63444", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2017", "244396339", "156492", "1562" ]
+, [ "row-4b28-78p5-jkh6", "00000000-0000-0000-88F3-A7D95DBCA8D6", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2016", "216823054", "155349", "1396" ]
+, [ "row-iu8r-tnbv.9i3r", "00000000-0000-0000-B6FD-C8730C0DCD02", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2015", "206640230", "155878", "1326" ]
+, [ "row-fb3r_g8ss-p5yr", "00000000-0000-0000-E903-D421E049E273", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2014", "183041936", "153897", "1189" ]
+, [ "row-g5km.sr5k~hkf6", "00000000-0000-0000-B4BC-897D59E6D349", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2013", "186381002", "152711", "1220" ]
+, [ "row-4ft2.gcph-rsuj", "00000000-0000-0000-1462-A6629A0032A8", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2012", "198807815", "152074", "1307" ]
+, [ "row-nsxt-pkmv-t2jd", "00000000-0000-0000-79AC-190F5105BF93", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2011", "192235596", "151949", "1265" ]
+, [ "row-jahz_neww~aggv", "00000000-0000-0000-F727-69256B82C714", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2010", "168679487", "153655", "1098" ]
+, [ "row-kqup.qs99.g2a6", "00000000-0000-0000-4F41-135DEE2CDC3E", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2009", "174175104", "152331", "1143" ]
+, [ "row-vc7v_9cvz.yvdk", "00000000-0000-0000-1F29-17965BB8C40E", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2008", "174459605", "150887", "1156" ]
+, [ "row-qbrv.s4xd_xbsx", "00000000-0000-0000-2BB0-C27C255DE20A", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2007", "169675674", "148721", "1141" ]
+, [ "row-djet_jnsu~zsqr", "00000000-0000-0000-1332-048C6B859D74", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2006", "183648628", "144396", "1272" ]
+, [ "row-wpgm~5ftt-p4ph", "00000000-0000-0000-44C5-B92A2ABAC711", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2005", "144206565", "141007", "1023" ]
+, [ "row-pdkg~gkzk-ib22", "00000000-0000-0000-3658-EE199F1F08A4", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2004", "124865207", "135262", "923" ]
+, [ "row-4kq9.n8cx~djuw", "00000000-0000-0000-67F8-C1230C175ACF", 0, 1668534069, null, 1668534069, null, "{ }", "Madera", "2003", "147829842", "131168", "1127" ]
+, [ "row-qct5~ricf~rcy5", "00000000-0000-0000-AA62-8FB997BFAADA", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2021", "898066530", "259512", "3461" ]
+, [ "row-6eu9_u9rr_2zhi", "00000000-0000-0000-09CA-ABB5ECCD8241", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2020", "776626083", "260831", "2978" ]
+, [ "row-zc4k.jjpm~cm4x", "00000000-0000-0000-8466-6A298AF85B5D", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2019", "761444825", "262879", "2897" ]
+, [ "row-ang3-nzqv_b3td", "00000000-0000-0000-A181-A27151C19855", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2018", "599287488", "263886", "2271" ]
+, [ "row-iiis.6ir9_7num", "00000000-0000-0000-21D6-67C417733795", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2017", "554795904", "263604", "2105" ]
+, [ "row-78wg.9trb~kc9d", "00000000-0000-0000-8C6E-C2856798A835", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2016", "585393034", "262274", "2232" ]
+, [ "row-gtdu_e6tf_9iiq", "00000000-0000-0000-2671-B8EC130B245F", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2015", "503651068", "258972", "1945" ]
+, [ "row-qrfw~brip_23hs", "00000000-0000-0000-9B86-27BF1D746F24", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2014", "474533587", "255846", "1855" ]
+, [ "row-w36v-n77q_czpa", "00000000-0000-0000-2BFA-5171FB7AD3B2", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2013", "467415124", "254007", "1840" ]
+, [ "row-2z9c.n4t6~2fxu", "00000000-0000-0000-3C9A-494EC700276D", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2012", "479488785", "254790", "1882" ]
+, [ "row-gjxa~4k2e~bd3q", "00000000-0000-0000-244F-871B0E3C99F9", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2011", "539104138", "254692", "2117" ]
+, [ "row-fsa9~egs6-dsiu", "00000000-0000-0000-4084-08B4E8A734CA", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2010", "442460293", "260651", "1698" ]
+, [ "row-s3dn_pdmf~z3yz", "00000000-0000-0000-7CA8-B5E73AF7048E", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2009", "430694172", "258618", "1665" ]
+, [ "row-d2jn-aw4p_5nbn", "00000000-0000-0000-E080-97F27CE791BA", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2008", "443994914", "257406", "1725" ]
+, [ "row-cdq2~knhn.74sp", "00000000-0000-0000-8B42-CA7ACE67D35D", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2007", "404013928", "255982", "1578" ]
+, [ "row-urzu-jsgb-cs48", "00000000-0000-0000-407F-F9F890D01396", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2006", "397780185", "253341", "1570" ]
+, [ "row-uec3.s67h_pew3", "00000000-0000-0000-507E-4DF76DC50766", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2005", "367234286", "252485", "1454" ]
+, [ "row-erkz.cvc2_frhy", "00000000-0000-0000-A84A-0FEC713C81E6", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2004", "328318390", "250169", "1312" ]
+, [ "row-dpir~q37h.uedu", "00000000-0000-0000-382C-3DDB286E4C01", 0, 1668534069, null, 1668534069, null, "{ }", "Marin", "2003", "323448500", "250409", "1292" ]
+, [ "row-i5t5~p32i.9gnt", "00000000-0000-0000-F2C2-DDDAFFA4F11C", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2021", "94929807", "17066", "5563" ]
+, [ "row-c72m.94gs~kkh9", "00000000-0000-0000-96F8-57CF0C0140C9", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2020", "88255323", "18067", "4885" ]
+, [ "row-gsgh.abr3_sfeb", "00000000-0000-0000-03CA-571EB3A870E4", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2019", "82902148", "18068", "4588" ]
+, [ "row-6k94.eyfk.2b9a", "00000000-0000-0000-556E-E6717ECCFD80", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2018", "77874291", "18129", "4296" ]
+, [ "row-qhqw.n728-i3vk", "00000000-0000-0000-2A9C-A58DDDB62450", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2017", "71395521", "18148", "3934" ]
+, [ "row-7uqg.3cus~xghg", "00000000-0000-0000-6D6D-1A959971766A", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2016", "66657856", "18159", "3671" ]
+, [ "row-hhqh~mypg~9qyj", "00000000-0000-0000-7279-BF0870A1226F", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2015", "60063662", "17791", "3376" ]
+, [ "row-4s5u~j2yn_w67g", "00000000-0000-0000-2868-C6E690E0E00E", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2014", "57679389", "18467", "3123" ]
+, [ "row-ekcy.d57b.vdj4", "00000000-0000-0000-58D5-604287175A54", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2013", "55737470", "18026", "3092" ]
+, [ "row-m2wc~gwd9_6iq2", "00000000-0000-0000-6A24-442FC34E7BB4", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2012", "56691069", "17716", "3200" ]
+, [ "row-gmgb~n4tu~8zfu", "00000000-0000-0000-0CC4-B1F8DC761D35", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2011", "54981137", "18261", "3011" ]
+, [ "row-4b26.dah9~6fne", "00000000-0000-0000-F6C3-3100A875FFE9", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2010", "55498159", "18192", "3051" ]
+, [ "row-gs3k-aium-pr52", "00000000-0000-0000-F0E1-0AC25E02EF17", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2009", "51923278", "18306", "2836" ]
+, [ "row-rn6u~tz3b~ayvp", "00000000-0000-0000-008C-326B078CC2A3", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2008", "51099551", "18406", "2776" ]
+, [ "row-jcqt~riwa_u3mf", "00000000-0000-0000-F6FB-91041123A979", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2007", "47582245", "18254", "2607" ]
+, [ "row-qxrs.3cgs-s82z", "00000000-0000-0000-81E4-55095E6CBF3E", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2006", "46654174", "18216", "2561" ]
+, [ "row-twg8~u3tp_xbrh", "00000000-0000-0000-B3CD-0E2FB360DD26", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2005", "46083132", "17991", "2561" ]
+, [ "row-izgn~4v2z-8a9g", "00000000-0000-0000-9F4C-576AF3DF7CEA", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2004", "39730283", "17646", "2252" ]
+, [ "row-ss6e_tiyt-ttqh", "00000000-0000-0000-996D-BA11788E7B87", 0, 1668534069, null, 1668534069, null, "{ }", "Mariposa", "2003", "39558887", "17465", "2265" ]
+, [ "row-h7xs-hp3b-uctg", "00000000-0000-0000-6067-07BE0283D1AE", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2021", "323283103", "90669", "3566" ]
+, [ "row-kbt5_izrc_b2ry", "00000000-0000-0000-0111-334D827D7DB5", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2020", "312412438", "87946", "3552" ]
+, [ "row-wk25~inem_j598", "00000000-0000-0000-F90E-25F833D8CA91", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2019", "277498649", "89009", "3118" ]
+, [ "row-xvvm~4ich-e7s8", "00000000-0000-0000-3EBD-C1B6FF9031BD", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2018", "245693086", "89299", "2751" ]
+, [ "row-if3u~jyaw~v2ty", "00000000-0000-0000-C848-040018CFD3E4", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2017", "235560312", "89134", "2643" ]
+, [ "row-2e89-nt3u-xg6j", "00000000-0000-0000-5E42-5C91926C5666", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2016", "206272668", "88378", "2334" ]
+, [ "row-89ac_ys9g_fcfu", "00000000-0000-0000-69B1-34E8FA8EB590", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2015", "198654917", "88863", "2236" ]
+, [ "row-m5uz~7pdm_jpji", "00000000-0000-0000-F6EF-4813807C9761", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2014", "186975941", "89029", "2100" ]
+, [ "row-gqph.sc58-759h", "00000000-0000-0000-3C9B-420F6913DC94", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2013", "183588351", "88291", "2079" ]
+, [ "row-y73v.x3qf_9wsm", "00000000-0000-0000-E0A3-1CE5A1BAA589", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2012", "172417372", "87572", "1969" ]
+, [ "row-zpap-6vwu-kbh6", "00000000-0000-0000-9CB5-56EB35B0E449", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2011", "190611951", "88197", "2161" ]
+, [ "row-q7g2_44mc.4hs2", "00000000-0000-0000-876A-2439C12E745B", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2010", "188035333", "90289", "2083" ]
+, [ "row-a3wv-ftwt~f47f", "00000000-0000-0000-BCAC-12F99F490FFA", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2009", "188766319", "90206", "2093" ]
+, [ "row-vvis~swjh-jjar", "00000000-0000-0000-2D50-57E910EABFEF", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2008", "185955998", "90163", "2062" ]
+, [ "row-9q2b-za9i-stqn", "00000000-0000-0000-C786-24E3F550194E", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2007", "176593167", "90291", "1956" ]
+, [ "row-x5p9-swya~iepk", "00000000-0000-0000-3D77-152BEEB899F0", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2006", "162837549", "90445", "1800" ]
+, [ "row-reid.4srf.wm5s", "00000000-0000-0000-C597-F8D1520028E7", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2005", "153553311", "89974", "1707" ]
+, [ "row-q8kn~whfr~nqsp", "00000000-0000-0000-7288-29333315F684", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2004", "146913548", "89190", "1647" ]
+, [ "row-appu.k4hc_y5ra", "00000000-0000-0000-7910-8CB084BFCFDC", 0, 1668534069, null, 1668534069, null, "{ }", "Mendocino", "2003", "162112588", "88222", "1838" ]
+, [ "row-8eaq-6iuy_iru9", "00000000-0000-0000-67CA-823AF34B0BAB", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2021", "658613267", "281874", "2337" ]
+, [ "row-tmdk.vxhn.6xp5", "00000000-0000-0000-D439-6570B08D7500", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2020", "626609243", "283521", "2210" ]
+, [ "row-xv2s~ycwu~8j44", "00000000-0000-0000-9A96-B9A3BBC4D413", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2019", "593333567", "282928", "2097" ]
+, [ "row-rstf.gqj5.kt7w", "00000000-0000-0000-4EB8-D43DCC98376F", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2018", "552168265", "279977", "1972" ]
+, [ "row-4yza-x2nq~zcpe", "00000000-0000-0000-FF65-69A1DEE02623", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2017", "520964183", "274665", "1897" ]
+, [ "row-hrqm.c646_p9ug", "00000000-0000-0000-1BC3-F115FBC45AB8", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2016", "439271510", "271579", "1617" ]
+, [ "row-pe8w-zihz.r5uj", "00000000-0000-0000-F63F-AC7599266F63", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2015", "413448831", "266134", "1554" ]
+, [ "row-47n9~b5ug_bz9x", "00000000-0000-0000-F7E2-4275B58B5844", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2014", "405719802", "264922", "1531" ]
+, [ "row-t335.6894.zhrh", "00000000-0000-0000-7FD1-472E8011C59F", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2013", "364448085", "262478", "1388" ]
+, [ "row-ndfe_qybd~6sp7", "00000000-0000-0000-9211-C10D90493A05", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2012", "361923609", "258736", "1399" ]
+, [ "row-d58b-khbf_ra6r", "00000000-0000-0000-763E-4B0E3A727E1A", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2011", "373945461", "257984", "1449" ]
+, [ "row-skj2-x5ac.zgud", "00000000-0000-0000-1496-F3C07421C18E", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2010", "371262755", "258495", "1436" ]
+, [ "row-i6x3.gmb6-456n", "00000000-0000-0000-F403-0880B53A20FC", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2009", "386404810", "256450", "1507" ]
+, [ "row-4v7k_m5av-5ezn", "00000000-0000-0000-EE86-9F73BB31B7D9", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2008", "365637892", "255250", "1432" ]
+, [ "row-i48p-2yq8-9c7h", "00000000-0000-0000-D630-E0953664FE91", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2007", "389228752", "251510", "1548" ]
+, [ "row-mjdu~ryr3_k85z", "00000000-0000-0000-1E65-969A50C5ED4F", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2006", "365045437", "246751", "1479" ]
+, [ "row-wdpg.qgkr_nmde", "00000000-0000-0000-0C5E-7026DBA52144", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2005", "309945642", "240162", "1291" ]
+, [ "row-hem3~3xp9_gddb", "00000000-0000-0000-4C63-D57AED35A24D", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2004", "297380484", "232141", "1281" ]
+, [ "row-5frp-875a~kp2x", "00000000-0000-0000-D202-46733F467B52", 0, 1668534069, null, 1668534069, null, "{ }", "Merced", "2003", "325422012", "225138", "1445" ]
+, [ "row-dnyh-cv3h.gaqs", "00000000-0000-0000-2E2B-6E32E2CA68DF", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2021", "37542288", "8606", "4362" ]
+, [ "row-2dxs_nshg.c5pk", "00000000-0000-0000-661C-B7C6CC89F4E8", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2020", "38362949", "9570", "4009" ]
+, [ "row-u4sz_hmsf.ewem", "00000000-0000-0000-644C-2A322D9DAD87", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2019", "34779955", "9602", "3622" ]
+, [ "row-s8qe_iigh.k5wk", "00000000-0000-0000-029C-373DF072E602", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2018", "31249727", "9612", "3251" ]
+, [ "row-r8tw.xqq2_k98f", "00000000-0000-0000-430E-E85310D0F6DB", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2017", "30863325", "9580", "3222" ]
+, [ "row-2qjf.vx59.sfdm", "00000000-0000-0000-1797-BF9BE6DCB17D", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2016", "31283043", "9638", "3246" ]
+, [ "row-h7ch.aaqv-f9kg", "00000000-0000-0000-0FC2-00875B2A1A0E", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2015", "30609001", "9399", "3257" ]
+, [ "row-6dwn_vpzq_v6if", "00000000-0000-0000-56D2-95CE196818AE", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2014", "26943389", "9197", "2930" ]
+, [ "row-zuki_ihac-99fi", "00000000-0000-0000-0018-FBDA15626893", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2013", "28451670", "9522", "2988" ]
+, [ "row-vvmq_env9~m6mp", "00000000-0000-0000-C5A3-43299DF5CEA6", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2012", "30134520", "9566", "3150" ]
+, [ "row-45fe~kzbv~77gm", "00000000-0000-0000-8B64-E52DDBB03918", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2011", "40805130", "9705", "4205" ]
+, [ "row-f7s5-njf3_vr4n", "00000000-0000-0000-EF48-EB0704EA9EDF", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2010", "45140542", "9777", "4617" ]
+, [ "row-akx6.ts42-wv7z", "00000000-0000-0000-E637-07597F9D8E34", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2009", "45346594", "9698", "4676" ]
+, [ "row-p5a4-h5xk_bknp", "00000000-0000-0000-93A5-3362E1B5C50B", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2008", "36892785", "9702", "3803" ]
+, [ "row-kvdy.asbh_bnkw", "00000000-0000-0000-B0B6-4A3F09A265E5", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2007", "34213503", "9721", "3520" ]
+, [ "row-f5nd~hhim_k8ui", "00000000-0000-0000-5250-EBBAAD19304B", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2006", "34821104", "9836", "3540" ]
+, [ "row-vae7-fqig~6hxh", "00000000-0000-0000-66D2-A317FE404E58", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2005", "34132403", "9700", "3519" ]
+, [ "row-nujh~56k7.zn78", "00000000-0000-0000-38EE-A0FD4DF9396D", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2004", "31245242", "9640", "3241" ]
+, [ "row-8qaw_fx99~t3zj", "00000000-0000-0000-26B1-5CA24BE0FE38", 0, 1668534069, null, 1668534069, null, "{ }", "Modoc", "2003", "32624343", "9335", "3495" ]
+, [ "row-snfq-rcnk-xqbx", "00000000-0000-0000-A6C4-D0FA6FE475DE", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2021", "76838701", "13299", "5778" ]
+, [ "row-tvw5-t8fx~3cv2", "00000000-0000-0000-6856-37F2024BB566", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2020", "69249578", "13464", "5143" ]
+, [ "row-nubw-8dya.gpe7", "00000000-0000-0000-9A29-9A6C4A667415", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2019", "65803733", "13616", "4833" ]
+, [ "row-wy7q.kwrq-fpqg", "00000000-0000-0000-2362-B32927200C47", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2018", "64774317", "13822", "4686" ]
+, [ "row-vcmz_qm27-bvy2", "00000000-0000-0000-4721-20D8C9C0D879", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2017", "58065258", "13713", "4234" ]
+, [ "row-fvgs~345j.j7fi", "00000000-0000-0000-02FF-A13426FA03A3", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2016", "59722817", "13721", "4353" ]
+, [ "row-uizc-qveq-9cq7", "00000000-0000-0000-12DD-4EB58D95EC3A", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2015", "52282402", "14695", "3558" ]
+, [ "row-zmn2~ih3x~exbp", "00000000-0000-0000-7CE9-8BA88D581E21", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2014", "53253721", "14143", "3765" ]
+, [ "row-7fhw.kfyj-eemh", "00000000-0000-0000-828C-BD23F16E1BB4", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2013", "51833685", "14493", "3576" ]
+, [ "row-ptpq-fdae_6d9e", "00000000-0000-0000-2504-84E4AD9CB4EA", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2012", "50068268", "14391", "3479" ]
+, [ "row-kf5m.3bv9_4jbs", "00000000-0000-0000-B72D-9FCC8335BD4B", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2011", "55205512", "14308", "3858" ]
+, [ "row-yxwf.3gtx-yvs4", "00000000-0000-0000-7596-353049A92226", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2010", "54458086", "13617", "3999" ]
+, [ "row-ubpv_6ezm_spy5", "00000000-0000-0000-F3D2-195885221A5E", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2009", "51923594", "13504", "3845" ]
+, [ "row-8eew_ei7g.bc4q", "00000000-0000-0000-5730-5F8872CD4F18", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2008", "52001350", "13759", "3779" ]
+, [ "row-8z3r-5666-amjv", "00000000-0000-0000-7553-B9B9D4CAD4D9", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2007", "48545097", "13985", "3471" ]
+, [ "row-isdx_nnf7_74z7", "00000000-0000-0000-3021-2D661AB02DA5", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2006", "40488069", "13597", "2978" ]
+, [ "row-93xj_zkyt_973j", "00000000-0000-0000-E9E9-79C2F21D07F1", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2005", "36710249", "13563", "2707" ]
+, [ "row-duv5_7acy-dbzj", "00000000-0000-0000-FFDF-7406D200B1E5", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2004", "34709905", "13520", "2567" ]
+, [ "row-njtx~2j3h~g9uv", "00000000-0000-0000-74E6-A740A956203D", 0, 1668534069, null, 1668534069, null, "{ }", "Mono", "2003", "33238867", "13337", "2492" ]
+, [ "row-3yhc-j63p.nnkw", "00000000-0000-0000-82EB-E3B28DC860D1", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2021", "1511064887", "435721", "3468" ]
+, [ "row-djdx~85mw~ihvk", "00000000-0000-0000-11AD-698C80E830CF", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2020", "1348961143", "441143", "3058" ]
+, [ "row-dz57.aqw5-3zhi", "00000000-0000-0000-78A3-DB56461E5915", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2019", "1334500225", "445414", "2996" ]
+, [ "row-8a7m-dm53~zrmx", "00000000-0000-0000-C5A1-DF234AE8625C", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2018", "1251119128", "443281", "2822" ]
+, [ "row-iu6u-qq5n.kz5k", "00000000-0000-0000-F945-8FC2E1881D7C", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2017", "1085600914", "442365", "2454" ]
+, [ "row-f24r_7jz5-fryj", "00000000-0000-0000-D356-7C4FFAD80BCB", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2016", "1015238741", "437178", "2322" ]
+, [ "row-7rkp.xwp4-jeea", "00000000-0000-0000-8DF1-12B8A2E1885F", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2015", "889396769", "425413", "2091" ]
+, [ "row-ppim~2fsc~s36e", "00000000-0000-0000-0CED-AEAAB0C9B504", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2014", "816486584", "425756", "1918" ]
+, [ "row-jna8.jyhq.yf2w", "00000000-0000-0000-5B28-E3EBA3D21D55", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2013", "802605729", "421494", "1904" ]
+, [ "row-c52u.4e2y-tvhk", "00000000-0000-0000-F4B1-5A3F41BDEFC1", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2012", "776890434", "420668", "1847" ]
+, [ "row-zr83_7ppq_25e2", "00000000-0000-0000-38CF-BE098AC1668D", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2011", "788766228", "419038", "1882" ]
+, [ "row-kw55_svzb~k56k", "00000000-0000-0000-18DF-877A2E708086", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2010", "754029279", "435878", "1730" ]
+, [ "row-wkhu.sn3u_kbg9", "00000000-0000-0000-9634-AD36E9799348", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2009", "747096536", "431892", "1730" ]
+, [ "row-pbc8.752c-6p8v", "00000000-0000-0000-C036-0A9D8C015954", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2008", "719384598", "428549", "1679" ]
+, [ "row-g6jj-g6qe.qycc", "00000000-0000-0000-CB13-838393656DB5", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2007", "734091549", "425960", "1723" ]
+, [ "row-qqgv_y8eb.yq46", "00000000-0000-0000-E687-A0699F97F11F", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2006", "641260223", "424842", "1509" ]
+, [ "row-c9my.sbve~v2j5", "00000000-0000-0000-4E52-78FAFA492DB9", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2005", "613555968", "425102", "1443" ]
+, [ "row-v3k8_z64c.gmtv", "00000000-0000-0000-E3B0-E9F8687F1F14", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2004", "592308474", "421441", "1405" ]
+, [ "row-4c4q_8jpq-uksu", "00000000-0000-0000-C4D1-BB912EEE7EF9", 0, 1668534069, null, 1668534069, null, "{ }", "Monterey", "2003", "574888813", "415773", "1383" ]
+, [ "row-xpzk.iisi_4y76", "00000000-0000-0000-0651-3360CA96555A", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2021", "515822656", "137518", "3751" ]
+, [ "row-xxxr_jyuc.a2ak", "00000000-0000-0000-60C6-181EEFB3F4BE", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2020", "462384684", "139088", "3324" ]
+, [ "row-hidi_trqi.gcrt", "00000000-0000-0000-E1B1-8A43748C3896", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2019", "441388573", "140779", "3135" ]
+, [ "row-y7f2_jgvs~57vk", "00000000-0000-0000-BF8D-0906F60F0B28", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2018", "410620823", "141294", "2906" ]
+, [ "row-vm4b-asqw~qw5f", "00000000-0000-0000-CDE6-54C559739EC1", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2017", "370217770", "142408", "2600" ]
+, [ "row-tw7q-fbnw-i64m", "00000000-0000-0000-15C8-52CF189168BB", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2016", "330137626", "142028", "2324" ]
+, [ "row-pjn6~rsm4_jy6n", "00000000-0000-0000-240E-C5B43F4394C5", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2015", "323583057", "140362", "2305" ]
+, [ "row-4r4v~f2pz_k2sg", "00000000-0000-0000-39F9-74F6A5782CDA", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2014", "307365157", "139255", "2207" ]
+, [ "row-95v5-i9uk-rujp", "00000000-0000-0000-FDC4-6A77561E7FEE", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2013", "280823358", "138383", "2029" ]
+, [ "row-qvmg~4au4-xqxd", "00000000-0000-0000-827A-C97AA470658F", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2012", "251559558", "138255", "1820" ]
+, [ "row-crvb-wc4t-89ec", "00000000-0000-0000-9C86-D46992D449B3", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2011", "264799701", "137639", "1924" ]
+, [ "row-6fp5_9qus~ttwf", "00000000-0000-0000-0408-6B7F0AD00E11", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2010", "241999025", "138917", "1742" ]
+, [ "row-q4ss~ar7p~zzsr", "00000000-0000-0000-7FEB-8CFC5C24E369", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2009", "252789293", "137571", "1838" ]
+, [ "row-in2x~mjf5_tubi", "00000000-0000-0000-AD52-2A103F54B5C4", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2008", "224406792", "136704", "1642" ]
+, [ "row-pg3s_b6z4.m4av", "00000000-0000-0000-1F5F-0752054C9291", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2007", "212487044", "135969", "1563" ]
+, [ "row-mcm4-wk2i~jfaz", "00000000-0000-0000-7C1E-10987593A459", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2006", "209287276", "134444", "1557" ]
+, [ "row-zdag~c6pm~nwnn", "00000000-0000-0000-26A0-08E2B8CA4579", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2005", "188502657", "133294", "1414" ]
+, [ "row-hgxa~fx5y~h6z5", "00000000-0000-0000-E009-D187E3A19820", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2004", "180967098", "131624", "1375" ]
+, [ "row-9ed4~uu7t-9zvz", "00000000-0000-0000-2833-28D79B62B2B1", 0, 1668534069, null, 1668534069, null, "{ }", "Napa", "2003", "162586355", "129776", "1253" ]
+, [ "row-qejy-js3b_4g27", "00000000-0000-0000-BA02-BFDA748B5C24", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2021", "234986692", "101919", "2306" ]
+, [ "row-59sh-nfqc~hfcb", "00000000-0000-0000-D355-6F697CCDA265", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2020", "214843764", "98114", "2190" ]
+, [ "row-vabj.j736.sy8y", "00000000-0000-0000-18D8-A54432362257", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2019", "198442113", "98904", "2006" ]
+, [ "row-6i9g_76pv_6u3b", "00000000-0000-0000-9DAB-749D9561CEBA", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2018", "184038554", "99155", "1856" ]
+, [ "row-gusi.s47a~z5ki", "00000000-0000-0000-1500-DF7EBE90AA8B", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2017", "163862949", "98828", "1658" ]
+, [ "row-y2g4_vp8p~4jic", "00000000-0000-0000-2E00-AFCC06737066", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2016", "147735751", "98095", "1506" ]
+, [ "row-m9ei-ks8e-9nu4", "00000000-0000-0000-E381-CAE93DC38A28", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2015", "142883250", "98193", "1455" ]
+, [ "row-dwyf-535v_f3q3", "00000000-0000-0000-B2B2-39259B1451E5", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2014", "141331655", "97225", "1454" ]
+, [ "row-brrm_scaj~ayki", "00000000-0000-0000-944D-E6AF501F7871", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2013", "137555506", "97019", "1418" ]
+, [ "row-twzd_m3i6~ns2z", "00000000-0000-0000-BD47-6B8F56C072AD", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2012", "141546524", "97182", "1457" ]
+, [ "row-k537-jwnw_n9h8", "00000000-0000-0000-341A-17C4237B0E2C", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2011", "148517418", "99111", "1498" ]
+, [ "row-p5j5_cnv9.ghsk", "00000000-0000-0000-6949-7345DC50E4DB", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2010", "149046420", "98680", "1510" ]
+, [ "row-6t9m_sgip-z5np", "00000000-0000-0000-F613-D3AB670A088C", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2009", "145099207", "98718", "1470" ]
+, [ "row-q6eg.2zbq.nv8d", "00000000-0000-0000-BA6D-58C91530B676", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2008", "139910142", "99186", "1411" ]
+, [ "row-j94d_u5as-mfzj", "00000000-0000-0000-160E-1E3B9B7A8E4E", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2007", "130774060", "99766", "1311" ]
+, [ "row-qpua-kjmb_rry7", "00000000-0000-0000-82CE-8DECE071E954", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2006", "129698668", "100066", "1296" ]
+, [ "row-37ay_i96d~r4gt", "00000000-0000-0000-7C14-8F834DAC723D", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2005", "113274682", "98955", "1145" ]
+, [ "row-zwg8_im9u-f7rr", "00000000-0000-0000-2724-6B06E7A0A384", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2004", "108911796", "96065", "1134" ]
+, [ "row-rm76~4xs9-m5qg", "00000000-0000-0000-1B0A-A0BB7CD22A09", 0, 1668534069, null, 1668534069, null, "{ }", "Nevada", "2003", "112380381", "95749", "1174" ]
+, [ "row-gh4y.vsav-hh5a", "00000000-0000-0000-0EEC-22CCB70888AF", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2021", "5859070819", "3169542", "1849" ]
+, [ "row-z6j6~4we3.bhhz", "00000000-0000-0000-23D9-1018D85C03E0", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2020", "5203412227", "3194332", "1629" ]
+, [ "row-6jwe-edp7_d9jk", "00000000-0000-0000-FDE1-832545A5AC2E", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2019", "4909268760", "3222498", "1523" ]
+, [ "row-cy3n~zrca.zc4b", "00000000-0000-0000-A44F-B1728A909305", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2018", "4584568142", "3221103", "1423" ]
+, [ "row-5c2f.f8v7.pmtu", "00000000-0000-0000-82FB-AEB4148A1C43", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2017", "4412670251", "3194024", "1382" ]
+, [ "row-nx8a.bxvg~gz9z", "00000000-0000-0000-C57E-C908B0427C57", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2016", "3793514681", "3183011", "1192" ]
+, [ "row-fyfk.8xpd_tbpr", "00000000-0000-0000-81D3-3474160534E0", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2015", "3724987048", "3147655", "1183" ]
+, [ "row-jt5m~2z7n_aqy3", "00000000-0000-0000-E62B-D12151F6B287", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2014", "3647101056", "3113991", "1171" ]
+, [ "row-2dr8-t8va.t2ct", "00000000-0000-0000-1CF9-EAB0C453400C", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2013", "3524255671", "3081804", "1144" ]
+, [ "row-xz3q.mcc7_9jua", "00000000-0000-0000-87B5-AF280E5E8507", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2012", "3265911821", "3055792", "1069" ]
+, [ "row-z6xr-m6qv_xtxa", "00000000-0000-0000-EB17-1AC50F7F1397", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2011", "3144642955", "3029859", "1038" ]
+, [ "row-8k48-ribr~hst2", "00000000-0000-0000-7DB3-E65031702D76", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2010", "3087830305", "3166461", "975" ]
+, [ "row-rnbp.wfkh~gm3d", "00000000-0000-0000-0C22-618AEA249331", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2009", "3105605836", "3139017", "989" ]
+, [ "row-aapd_96mk_pap6", "00000000-0000-0000-19C2-52E3CA85EB6B", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2008", "3445201493", "3121251", "1104" ]
+, [ "row-f3qd-yh9x-228k", "00000000-0000-0000-C209-11EB96E1BEA9", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2007", "3552215691", "3098121", "1147" ]
+, [ "row-dgyy_6eri.2u37", "00000000-0000-0000-C8B3-92CCE34B189B", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2006", "3359558336", "3072336", "1093" ]
+, [ "row-kunq~hmq4_m5g3", "00000000-0000-0000-E4A8-C6768240203E", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2005", "2888478285", "3056865", "945" ]
+, [ "row-8ky6.ea5b.p2aw", "00000000-0000-0000-4373-9B5612BFF6F6", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2004", "2693526625", "3017298", "893" ]
+, [ "row-etpu-ciy5_38sq", "00000000-0000-0000-F50E-9A11B5B43933", 0, 1668534069, null, 1668534069, null, "{ }", "Orange", "2003", "2608620198", "2978816", "876" ]
+, [ "row-f64j-f9cb~qqwi", "00000000-0000-0000-DE32-EBEF97B6CBA0", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2021", "931155936", "407517", "2285" ]
+, [ "row-bkfw-fhkt~esa8", "00000000-0000-0000-0133-D70EB7A65439", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2020", "828024546", "403711", "2051" ]
+, [ "row-ig37-svme.rsu7", "00000000-0000-0000-B459-4E9E3FBA9E50", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2019", "762996372", "396691", "1923" ]
+, [ "row-5xr3.xs54.scaa", "00000000-0000-0000-F775-4248D4D52AD7", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2018", "706198572", "389532", "1813" ]
+, [ "row-exa4_9hm9~ymd6", "00000000-0000-0000-B098-92F308EC1A64", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2017", "658575612", "382837", "1720" ]
+, [ "row-fr5b.s6k4-hfua", "00000000-0000-0000-0A7B-BF630AD71B2D", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2016", "562674677", "373796", "1505" ]
+, [ "row-7ys3-p6kb_srgt", "00000000-0000-0000-DCC4-DB7E7AC47F05", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2015", "547404953", "369454", "1482" ]
+, [ "row-pfzh-tenm_6s2g", "00000000-0000-0000-E30B-5CDC98CB2BA4", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2014", "561033320", "366115", "1532" ]
+, [ "row-pgj8_5wps.ce7x", "00000000-0000-0000-7308-5F95DE07A39B", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2013", "496785824", "357463", "1390" ]
+, [ "row-j65s~fk6v~ihah", "00000000-0000-0000-9558-AE907BD3B3E8", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2012", "492184922", "355328", "1385" ]
+, [ "row-c97y~89mw-aw8w", "00000000-0000-0000-7177-C10968BF950D", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2011", "486765553", "352380", "1381" ]
+, [ "row-sczd.rp9n.kkgc", "00000000-0000-0000-E4BA-A972801AD3C3", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2010", "468596632", "347102", "1350" ]
+, [ "row-yp99-dup7~4szv", "00000000-0000-0000-0108-B5A39AE8506A", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2009", "482986537", "339577", "1422" ]
+, [ "row-kb6t-i29a.6ugv", "00000000-0000-0000-18F9-EABFBB70F536", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2008", "528900869", "333401", "1586" ]
+, [ "row-rhc2.v3bm~twiv", "00000000-0000-0000-1FF2-605B4639EACA", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2007", "483687249", "324495", "1491" ]
+, [ "row-hjff~j7in~7tq8", "00000000-0000-0000-8F14-3D40028CF802", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2006", "438815910", "316508", "1386" ]
+, [ "row-4k3c~qtma.q922", "00000000-0000-0000-5D4D-A81D371A1CF7", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2005", "394109534", "305675", "1289" ]
+, [ "row-uv7u~ss2w.n4xh", "00000000-0000-0000-9BEB-BE85ACA27F31", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2004", "340893988", "292095", "1167" ]
+, [ "row-mbwz_jm9h_nd9w", "00000000-0000-0000-7E22-91D15CD7A0C1", 0, 1668534069, null, 1668534069, null, "{ }", "Placer", "2003", "320645890", "275612", "1163" ]
+, [ "row-dmgt_a92a.aqiv", "00000000-0000-0000-9B8A-691AE4F8C860", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2021", "80681488", "19574", "4122" ]
+, [ "row-tnwk~pxb2.vhbz", "00000000-0000-0000-8F7E-7382972DFC8D", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2020", "67393220", "18260", "3691" ]
+, [ "row-8gfg.fj5x~iv9e", "00000000-0000-0000-5FB5-BFD867E27DD0", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2019", "64464586", "19779", "3259" ]
+, [ "row-ygim_zt8c_763q", "00000000-0000-0000-4FF2-4AEF9356A780", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2018", "64867700", "19773", "3281" ]
+, [ "row-drvt~8xuw-54af", "00000000-0000-0000-AF0C-EC2A99410E9B", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2017", "56460600", "19819", "2849" ]
+, [ "row-93dq~euxi.gctj", "00000000-0000-0000-AA19-EBDD29B25EA3", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2016", "57739496", "19879", "2905" ]
+, [ "row-432u.9ksp-429k", "00000000-0000-0000-6EE4-131D085F817D", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2015", "53440915", "19560", "2732" ]
+, [ "row-2ujj_vv56_swia", "00000000-0000-0000-4EE4-9EDE0A14D6F6", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2014", "52254253", "19140", "2730" ]
+, [ "row-jwqf~fzmh_vpja", "00000000-0000-0000-103F-615C6B59EC18", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2013", "50944994", "19643", "2594" ]
+, [ "row-upg3_i5xw_bh2v", "00000000-0000-0000-CCE7-0482D7DD837E", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2012", "52668732", "19718", "2671" ]
+, [ "row-my3n~p9gf_4wjn", "00000000-0000-0000-E489-DC452A4B999E", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2011", "51107272", "20025", "2552" ]
+, [ "row-86v4-3qtv-rqfa", "00000000-0000-0000-B68C-9AF0935FCA00", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2010", "54068900", "20428", "2647" ]
+, [ "row-fvh5.rfaj-4xja", "00000000-0000-0000-0152-5256A832F6C9", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2009", "56704152", "20632", "2748" ]
+, [ "row-cc7m_hwdk~h7ud", "00000000-0000-0000-0723-1A4DA82E8781", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2008", "59857726", "20917", "2862" ]
+, [ "row-xebt.c25v_hhzu", "00000000-0000-0000-D034-9EF2E358CF6A", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2007", "55246500", "21128", "2615" ]
+, [ "row-navz-zdfn_9nqi", "00000000-0000-0000-B79D-4CD8AE318F5F", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2006", "55951299", "21444", "2609" ]
+, [ "row-u2ri~7ayy.s2zh", "00000000-0000-0000-85A7-444A25BF5B24", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2005", "50568452", "21231", "2382" ]
+, [ "row-pv4i_5ym3-khg5", "00000000-0000-0000-07C1-EA4E5B19DBE5", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2004", "44800955", "21104", "2123" ]
+, [ "row-pe7e~pt9n~xjnj", "00000000-0000-0000-048F-CBDD8CAFDD21", 0, 1668534069, null, 1668534069, null, "{ }", "Plumas", "2003", "52485861", "20881", "2514" ]
+, [ "row-6giz.ygmd.mfsn", "00000000-0000-0000-8BD1-67F552A259B6", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2021", "5917990701", "2424587", "2441" ]
+, [ "row-ny8k_asps_w538", "00000000-0000-0000-24F1-E2CA3E6CDE4E", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2020", "5322611767", "2442304", "2179" ]
+, [ "row-spvj-p8ti-rzz9", "00000000-0000-0000-B50B-82BF4ACCB34B", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2019", "4804417426", "2440124", "1969" ]
+, [ "row-bdiu.7pcf_9eim", "00000000-0000-0000-A530-AB57B5071F81", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2018", "4422407003", "2415955", "1831" ]
+, [ "row-fwsa.88su.6mre", "00000000-0000-0000-FE28-F9D88524202D", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2017", "4343263894", "2384783", "1821" ]
+, [ "row-4xxa.ap2r_bvvk", "00000000-0000-0000-01B7-6139B36F8BE2", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2016", "3858788311", "2347828", "1644" ]
+, [ "row-9dxa.aicj-m35k", "00000000-0000-0000-3F2B-60D640BBBCD2", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2015", "3686292169", "2308441", "1597" ]
+, [ "row-zme2~wwzm.xzu2", "00000000-0000-0000-1253-1116EDB09D66", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2014", "3284411738", "2279967", "1441" ]
+, [ "row-tyhi~b8em~m3me", "00000000-0000-0000-5194-B224E9C949E8", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2013", "3158800159", "2255059", "1401" ]
+, [ "row-h8t7~92rr~46sz", "00000000-0000-0000-AEE3-94EB01006561", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2012", "3001667067", "2227577", "1348" ]
+, [ "row-t3vh.8x64_nnwh", "00000000-0000-0000-D1AF-B601601145E6", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2011", "3040962693", "2217778", "1371" ]
+, [ "row-ukdu-y33p~4b2p", "00000000-0000-0000-9B2F-E03812A4F005", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2010", "3016792093", "2139535", "1410" ]
+, [ "row-pwdb.sng2~n256", "00000000-0000-0000-BD4B-55B8AB518F41", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2009", "3089346531", "2107653", "1466" ]
+, [ "row-tffi~8cw8.tqvu", "00000000-0000-0000-9388-253C26B8C708", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2008", "3403971969", "2088322", "1630" ]
+, [ "row-wpch.vqun-tezz", "00000000-0000-0000-CD08-57FC10F0E68D", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2007", "3061366249", "2031625", "1507" ]
+, [ "row-i2bh-ahjs_pr5x", "00000000-0000-0000-0AC8-B696412D217D", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2006", "2710873152", "1953330", "1388" ]
+, [ "row-6m7w-dnqx-nzgy", "00000000-0000-0000-DAE1-D93E109D9DD6", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2005", "2981336198", "1877000", "1588" ]
+, [ "row-eazq~i4yt~q76p", "00000000-0000-0000-2A49-E6D9E18BD6E3", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2004", "2155861591", "1776743", "1213" ]
+, [ "row-twth.x6ze_36tj", "00000000-0000-0000-A738-9491C6DF5C58", 0, 1668534069, null, 1668534069, null, "{ }", "Riverside", "2003", "1918938152", "1705537", "1125" ]
+, [ "row-q767.3vww.zpp5", "00000000-0000-0000-9540-90663422E8DA", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2021", "4033952855", "1580624", "2552" ]
+, [ "row-86yn_yssh~r6yu", "00000000-0000-0000-3D8A-01F572BD68A7", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2020", "3869082596", "1555365", "2488" ]
+, [ "row-2r5a-75pn.b7gv", "00000000-0000-0000-63F9-6C353AEAB9DC", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2019", "3558483000", "1546174", "2301" ]
+, [ "row-tf6v_v6dy.ievw", "00000000-0000-0000-178A-1E9AD782F064", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2018", "3481911000", "1529501", "2277" ]
+, [ "row-ij24.8san_gyg2", "00000000-0000-0000-C6F4-73AAB854742C", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2017", "3355290000", "1514770", "2215" ]
+, [ "row-kzwp-43rs.3wfe", "00000000-0000-0000-B62D-B793CCC6BE94", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2016", "2851784075", "1495297", "1907" ]
+, [ "row-qn3n~xyzg.3afj", "00000000-0000-0000-B585-212BFBC5517B", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2015", "2627507359", "1470912", "1786" ]
+, [ "row-achj.rc65.k5a7", "00000000-0000-0000-A37F-3DFAB34AE95D", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2014", "2563130641", "1454406", "1762" ]
+, [ "row-h6b9~skcx-y72k", "00000000-0000-0000-A441-758C4561B9D1", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2013", "2541160948", "1445806", "1758" ]
+, [ "row-wcib.5fcz-ss5d", "00000000-0000-0000-F260-71AFA2FF97A4", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2012", "2337262306", "1435153", "1629" ]
+, [ "row-xbim-yxpj-bhuy", "00000000-0000-0000-0BC0-4D5F221BAD23", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2011", "2351892705", "1428355", "1647" ]
+, [ "row-gdj2_r7jh~td4u", "00000000-0000-0000-3AEF-714942D9B904", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2010", "2408744247", "1445327", "1667" ]
+, [ "row-m2ac.wq9r-87rx", "00000000-0000-0000-AD4F-2CFE69B6BBF6", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2009", "2501925536", "1433187", "1746" ]
+, [ "row-bzcc-fau4-dw7w", "00000000-0000-0000-ECF2-93926E5C192B", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2008", "2570356450", "1424415", "1804" ]
+, [ "row-v7mw~ewdn_bei9", "00000000-0000-0000-80AD-C0EC43C08453", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2007", "2548895112", "1406804", "1812" ]
+, [ "row-kz8c_vi4t~a4qh", "00000000-0000-0000-2F01-96A6EC50664B", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2006", "2448289609", "1385607", "1767" ]
+, [ "row-zcru-rksf-fc63", "00000000-0000-0000-7B52-1ED86292A9A1", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2005", "2616692395", "1369855", "1910" ]
+, [ "row-pk58.jkrt.zzbn", "00000000-0000-0000-E837-09FDF8CB5C83", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2004", "2219436667", "1335368", "1662" ]
+, [ "row-pbpv-xknp_jhxv", "00000000-0000-0000-5930-2207980EB325", 0, 1668534069, null, 1668534069, null, "{ }", "Sacramento", "2003", "2111218889", "1309611", "1612" ]
+, [ "row-mthg~dxns-zfg5", "00000000-0000-0000-B893-88F635D9F60E", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2021", "145871793", "64769", "2252" ]
+, [ "row-jnbc~teug_hm9u", "00000000-0000-0000-1CAD-CCE97E2CED0E", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2020", "113529495", "62353", "1821" ]
+, [ "row-z4hc_u4xt_gxhb", "00000000-0000-0000-32D0-D41D4B52496C", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2019", "106119007", "62296", "1703" ]
+, [ "row-77ie-mn6j~es4b", "00000000-0000-0000-DCAC-FAC53A7B2B29", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2018", "95824947", "57088", "1679" ]
+, [ "row-54dy.j8jd_u9gd", "00000000-0000-0000-7675-7A60C83FEFC7", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2017", "79747356", "56854", "1403" ]
+, [ "row-isw6-bxuu-kime", "00000000-0000-0000-1817-B0DDD6DF3440", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2016", "78131810", "56648", "1379" ]
+, [ "row-b62p_zfqx_usmx", "00000000-0000-0000-EA0E-D731520671C1", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2015", "73258769", "58344", "1256" ]
+, [ "row-5qq7-2xw9~h2rf", "00000000-0000-0000-8228-B0E2036B5113", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2014", "64489533", "57517", "1121" ]
+, [ "row-nu86-k6nw.i83p", "00000000-0000-0000-3130-1C31247E1AC4", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2013", "66238193", "56669", "1169" ]
+, [ "row-uty2.g2hm_88su", "00000000-0000-0000-EC6D-ECADB261AA9B", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2012", "69649394", "55815", "1248" ]
+, [ "row-66w4~uw4e-r7gn", "00000000-0000-0000-3327-2DFEE462948C", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2011", "82965152", "55619", "1492" ]
+, [ "row-w3vr-zqkp.w6pe", "00000000-0000-0000-4E3D-69D6E502F523", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2010", "69841563", "58388", "1196" ]
+, [ "row-3gq2~x22j-wv74", "00000000-0000-0000-AA9D-EB5AB2AD4022", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2009", "74922224", "58016", "1291" ]
+, [ "row-3wwa~xd5b~w5az", "00000000-0000-0000-5B10-D0D43EA5F7B1", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2008", "73819155", "57784", "1278" ]
+, [ "row-y6jc_hwdv-udsr", "00000000-0000-0000-E3A9-F3994EB29899", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2007", "69443636", "57803", "1201" ]
+, [ "row-r9jh-px9a.wb7y", "00000000-0000-0000-F96C-CA96B72BDC81", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2006", "64554126", "57627", "1120" ]
+, [ "row-54dx_8rqi-ku63", "00000000-0000-0000-13C8-053E51CC3741", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2005", "56795939", "57602", "986" ]
+, [ "row-2xu7.ucdf~izik", "00000000-0000-0000-B603-BDBC6B47C8DA", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2004", "54087152", "57116", "947" ]
+, [ "row-dsbq_ung6~9fci", "00000000-0000-0000-4FF1-96138F1A49F5", 0, 1668534069, null, 1668534069, null, "{ }", "San Benito", "2003", "56569243", "56309", "1005" ]
+, [ "row-mcse.5s9h~sh4m", "00000000-0000-0000-6CF3-7C813655389B", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2021", "5906750397", "2182343", "2707" ]
+, [ "row-ye2a~iye5.id5m", "00000000-0000-0000-5936-3A3D6EC096F3", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2020", "5339364443", "2180537", "2449" ]
+, [ "row-5j7g-2v98~eny7", "00000000-0000-0000-E88A-80C4F39E2399", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2019", "5123350918", "2192203", "2337" ]
+, [ "row-cqhi-pkpf~ujis", "00000000-0000-0000-36A3-A232AC619FC9", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2018", "4394560180", "2174938", "2021" ]
+, [ "row-224j.vyzg-hcqe", "00000000-0000-0000-B63F-00B618F897B8", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2017", "4141319948", "2160256", "1917" ]
+, [ "row-g8c2-8avs~vmwc", "00000000-0000-0000-7309-A914AC7F4936", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2016", "3639228514", "2139570", "1701" ]
+, [ "row-4u2h~gmmp-iun4", "00000000-0000-0000-F18D-4EDF8385D2AD", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2015", "3639592464", "2104291", "1730" ]
+, [ "row-5dub-tt5h.qeby", "00000000-0000-0000-2DA5-3FF29DF54A2E", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2014", "3517791026", "2085669", "1687" ]
+, [ "row-r6bd.8pvm~7wqn", "00000000-0000-0000-D8F7-D82769E284F9", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2013", "3300520586", "2076274", "1590" ]
+, [ "row-m68a~t3na-3ukt", "00000000-0000-0000-11F0-5B85F4C8B87F", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2012", "3074142479", "2063919", "1489" ]
+, [ "row-juru~mu6x-4jj5", "00000000-0000-0000-481B-B2B27874EAE9", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2011", "3029008350", "2052397", "1476" ]
+, [ "row-yfms_2hxa_xfjw", "00000000-0000-0000-9B71-473AF61EF5AE", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2010", "2907172535", "2073149", "1402" ]
+, [ "row-uknc-8nea~w9ev", "00000000-0000-0000-EFC7-67D6EA88F022", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2009", "2881960084", "2060950", "1398" ]
+, [ "row-e3wy_us92_5qek", "00000000-0000-0000-BDBD-0535E4E9DBF5", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2008", "2893229762", "2055766", "1407" ]
+, [ "row-ttny.kb92.kwdi", "00000000-0000-0000-C598-12DEB9F9F05B", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2007", "2813005419", "2028013", "1387" ]
+, [ "row-wn9p.gm2q~s66v", "00000000-0000-0000-DA92-289D4620705F", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2006", "2594073256", "1991829", "1302" ]
+, [ "row-guhx_7243~djnn", "00000000-0000-0000-EF62-A13F1A3F0D21", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2005", "2650694976", "1946202", "1362" ]
+, [ "row-rq59~xsz6_2kf9", "00000000-0000-0000-858E-8CFD85B28151", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2004", "2890602510", "1886481", "1532" ]
+, [ "row-yf9j_h2m4.b977", "00000000-0000-0000-AA33-1485D22B010C", 0, 1668534069, null, 1668534069, null, "{ }", "San Bernardino", "2003", "2364214132", "1832966", "1290" ]
+, [ "row-xdde-nuk2-bfef", "00000000-0000-0000-9FEA-6E08ACC1A829", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2021", "6175005844", "3288503", "1878" ]
+, [ "row-m3wb.f3dm-qy7m", "00000000-0000-0000-A88E-F62F849B1E0E", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2020", "5713399199", "3343355", "1709" ]
+, [ "row-mfj6_rmkb~et3v", "00000000-0000-0000-5D6F-9F80DCC99B87", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2019", "5184172580", "3351786", "1547" ]
+, [ "row-gbkp.rdz3-g7yu", "00000000-0000-0000-5CBC-E716B6C805A3", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2018", "4872062011", "3337456", "1460" ]
+, [ "row-8htw.d3be-hhjz", "00000000-0000-0000-2644-8CC77C50B1C8", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2017", "4389789349", "3316192", "1324" ]
+, [ "row-rvyn.7b8v-rs7c", "00000000-0000-0000-80C6-6DE9F5AD9230", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2016", "4055061156", "3288612", "1233" ]
+, [ "row-admp-x3za-ewer", "00000000-0000-0000-D3E8-077035CABE4B", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2015", "3961432413", "3227496", "1227" ]
+, [ "row-hbqr~ghzi.tqc7", "00000000-0000-0000-3E11-9240561C6C37", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2014", "4051682174", "3194362", "1268" ]
+, [ "row-h5vh.7eds_7y5j", "00000000-0000-0000-CB82-A6DFBE5D270A", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2013", "3726020023", "3150178", "1183" ]
+, [ "row-9fe8_ebi9~6c3x", "00000000-0000-0000-8938-866EDA49229F", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2012", "3636755644", "3143429", "1157" ]
+, [ "row-bbw9_zngg.a7q7", "00000000-0000-0000-ABC6-8D833B17CF7A", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2011", "3585198343", "3118876", "1150" ]
+, [ "row-nvci.xyfn-4zm3", "00000000-0000-0000-A160-41324D5B2741", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2010", "3578464437", "3224432", "1110" ]
+, [ "row-jx66~pivw-mg7r", "00000000-0000-0000-C500-5601F85E3EDE", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2009", "3558727647", "3173407", "1121" ]
+, [ "row-tgi2.r94w.zhdm", "00000000-0000-0000-9D8D-5E222D43601C", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2008", "3582174357", "3146274", "1139" ]
+, [ "row-esa3_kumu-n38p", "00000000-0000-0000-0C22-6AE3BDC78A3F", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2007", "3404667272", "3098269", "1099" ]
+, [ "row-u652~8g9p-z6sy", "00000000-0000-0000-5A2B-015631312921", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2006", "3432484814", "3066820", "1119" ]
+, [ "row-mm7u~na6n-bjd3", "00000000-0000-0000-B3A5-C3322462EE1A", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2005", "3096471290", "3051280", "1015" ]
+, [ "row-43sg_9y2e.ec4u", "00000000-0000-0000-B481-E71F323C13FA", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2004", "3202216667", "3017204", "1061" ]
+, [ "row-g4hq-x5es_36d9", "00000000-0000-0000-6D5E-68941ACDA2C2", 0, 1668534069, null, 1668534069, null, "{ }", "San Diego", "2003", "3240504105", "2961579", "1094" ]
+, [ "row-t5y8_b6uj-y4iy", "00000000-0000-0000-0368-22A30C27D752", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2021", "2135568232", "782372", "2730" ]
+, [ "row-g5u8_nuwg_8vvm", "00000000-0000-0000-9CEE-2963C0406FF7", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2020", "1841724330", "773632", "2381" ]
+, [ "row-f7ez_qiaq.p8wk", "00000000-0000-0000-EC78-0FCF2D3F158C", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2019", "1747994295", "770385", "2269" ]
+, [ "row-cemy_zi6r-uikf", "00000000-0000-0000-15BE-661F77C6BB7C", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2018", "1701785835", "758744", "2243" ]
+, [ "row-ichd.c63e-u5xz", "00000000-0000-0000-5535-A15E99F58CAB", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2017", "1439251199", "746868", "1927" ]
+, [ "row-ttkc.u6a6~hbs9", "00000000-0000-0000-3AA5-2AA042EE092F", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2016", "1230007396", "733383", "1677" ]
+, [ "row-u9uj.xqaw-y7em", "00000000-0000-0000-73E1-89B02B1FB15F", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2015", "1233198136", "719511", "1714" ]
+, [ "row-9ga8~sayc.2p86", "00000000-0000-0000-A816-E03416BF0883", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2014", "1105782835", "710731", "1556" ]
+, [ "row-wady-dr2z-niy5", "00000000-0000-0000-2E51-CE657FE545F8", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2013", "1050538180", "698414", "1504" ]
+, [ "row-i4du~tt75-2umw", "00000000-0000-0000-86E3-A4E30F413FCA", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2012", "1029602233", "695750", "1480" ]
+, [ "row-jzvg.3sjn_jvuh", "00000000-0000-0000-60AF-86814128C399", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2011", "1056606033", "690899", "1529" ]
+, [ "row-inb4.sy4m.d8yv", "00000000-0000-0000-1A46-2F07735B5D14", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2010", "1019891185", "694293", "1469" ]
+, [ "row-4ant-msj7~buza", "00000000-0000-0000-8A9B-6BCD930261C1", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2009", "1040616341", "689480", "1509" ]
+, [ "row-cgi9-tnxt_xnz7", "00000000-0000-0000-7147-06F1217AD079", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2008", "1073440780", "685660", "1566" ]
+, [ "row-qb9h.f73f-szh6", "00000000-0000-0000-5565-3876D4F48E2B", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2007", "1050534406", "679687", "1546" ]
+, [ "row-q45b.kqap.z68u", "00000000-0000-0000-BA82-8B3700141180", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2006", "1004651097", "668265", "1503" ]
+, [ "row-g4br~nbvi~icse", "00000000-0000-0000-78D8-F103EA97C458", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2005", "905722899", "653333", "1386" ]
+, [ "row-7cfu-yc9w.5jd5", "00000000-0000-0000-EFBB-FCC9EBC125E2", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2004", "821967937", "630577", "1304" ]
+, [ "row-5eyb_mvxf.zyhr", "00000000-0000-0000-66DC-B0EE68B143E9", 0, 1668534069, null, 1668534069, null, "{ }", "San Joaquin", "2003", "788679778", "613490", "1286" ]
+, [ "row-2p57.n35j.q2dq", "00000000-0000-0000-A3F2-B89944011C4F", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2021", "801535463", "279710", "2866" ]
+, [ "row-ai2g_j8cx.rwyq", "00000000-0000-0000-2BA7-F8C29AC45DD9", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2020", "714897644", "277259", "2578" ]
+, [ "row-2bgt.d4xe_kjpp", "00000000-0000-0000-B669-4E46CE71459D", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2019", "707485856", "280393", "2523" ]
+, [ "row-vs96.vhpw-awqb", "00000000-0000-0000-AD28-9B2251403EC2", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2018", "615588420", "280101", "2198" ]
+, [ "row-3bdm_yh8r.u2rp", "00000000-0000-0000-3E63-E8207E8195F9", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2017", "604606437", "280101", "2159" ]
+, [ "row-hs2v_jh5v.5ee8", "00000000-0000-0000-D081-6CB3CABE9E12", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2016", "536058993", "277977", "1928" ]
+, [ "row-n4q8~n79m.vscy", "00000000-0000-0000-F282-D28F6E673020", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2015", "534080222", "274293", "1947" ]
+, [ "row-m8ce-k59v~x9p6", "00000000-0000-0000-5170-CE17294C2C23", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2014", "516562520", "272357", "1897" ]
+, [ "row-vd5j-48dn.uk27", "00000000-0000-0000-BA59-A2F379839B00", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2013", "466887808", "272177", "1715" ]
+, [ "row-qmc7~63wt.eafr", "00000000-0000-0000-CF99-F2B08BBF5F6E", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2012", "424204522", "271483", "1563" ]
+, [ "row-xbxc_j2qa-p7kv", "00000000-0000-0000-9524-A5C23FA4ED2A", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2011", "412836448", "270966", "1524" ]
+, [ "row-z744_g94h-8ray", "00000000-0000-0000-DC91-F1902794D575", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2010", "414641961", "273231", "1518" ]
+, [ "row-f6qf.b6ws_m6f6", "00000000-0000-0000-48A9-5DBFF30E8650", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2009", "421079073", "270429", "1557" ]
+, [ "row-d2vs_fktf~74qv", "00000000-0000-0000-405F-489D64213AFA", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2008", "439578151", "269337", "1632" ]
+, [ "row-nw79-hhyh.jj3x", "00000000-0000-0000-CB6D-3F4B7DA87EC5", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2007", "415291027", "264900", "1568" ]
+, [ "row-re9w_6c9e.effr", "00000000-0000-0000-709C-F7F313DA5286", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2006", "383861377", "263242", "1458" ]
+, [ "row-j7vp~br4w-scbw", "00000000-0000-0000-6EA0-C55DEBDFD163", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2005", "339452446", "260727", "1302" ]
+, [ "row-99b3~5f3s_2qjr", "00000000-0000-0000-907C-9225C6E14BE7", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2004", "473932534", "258204", "1835" ]
+, [ "row-h47g_jkgg.h4af", "00000000-0000-0000-8330-779B9C43B65C", 0, 1668534069, null, 1668534069, null, "{ }", "San Luis Obispo", "2003", "349791976", "256254", "1365" ]
+, [ "row-yxk4.pg78~ub77", "00000000-0000-0000-5314-ED366BC647AF", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2021", "2453080854", "751596", "3264" ]
+, [ "row-hckn~wfhv~8wjq", "00000000-0000-0000-AD22-87B4F1826510", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2020", "2386806900", "773244", "3087" ]
+, [ "row-eeqq_btsx-sdzc", "00000000-0000-0000-FD02-C0400FC4EC6B", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2019", "2280789608", "774485", "2945" ]
+, [ "row-djey_9anc~hg5q", "00000000-0000-0000-4207-091DAE94CB2C", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2018", "1975047219", "774155", "2551" ]
+, [ "row-adif-j23c-n7vx", "00000000-0000-0000-5EDF-79C1D2E35841", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2017", "1732198692", "770203", "2249" ]
+, [ "row-higx_vn39-iswz", "00000000-0000-0000-338B-5B73E8E8921B", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2016", "1482666461", "766041", "1935" ]
+, [ "row-pfif~rff3.aakz", "00000000-0000-0000-3745-6EBB802FC7AD", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2015", "1379268826", "753123", "1831" ]
+, [ "row-5s46~uz4c-jdww", "00000000-0000-0000-3E78-B64A68FBE3C5", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2014", "1460998295", "745193", "1961" ]
+, [ "row-232u.gej5.86uk", "00000000-0000-0000-4E93-08B17827017D", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2013", "1236227553", "735678", "1680" ]
+, [ "row-5vz9-x3xe_u94y", "00000000-0000-0000-9785-2BE448539037", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2012", "1191763043", "729443", "1634" ]
+, [ "row-j7v5~hv23_m4sk", "00000000-0000-0000-2037-636425B237E3", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2011", "1181002071", "724702", "1630" ]
+, [ "row-frt8_wtnd.mv3k", "00000000-0000-0000-B5E5-CF60C93D323D", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2010", "1157703664", "754285", "1535" ]
+, [ "row-rqck~ycnf-t9pw", "00000000-0000-0000-07CF-8603927DC41B", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2009", "1157897256", "745858", "1552" ]
+, [ "row-izrz.5dm8-8u4x", "00000000-0000-0000-39EB-4164D693C673", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2008", "1112296448", "739469", "1504" ]
+, [ "row-7qsq-9uif~akbg", "00000000-0000-0000-6E87-18C51025C6A6", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2007", "1098656404", "733496", "1498" ]
+, [ "row-i48i_cp48_72f2", "00000000-0000-0000-1B2F-8931A6E96CF7", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2006", "1039209525", "724104", "1435" ]
+, [ "row-b62q~j6e5~d6kh", "00000000-0000-0000-31BC-A626553EE130", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2005", "965395076", "723453", "1334" ]
+, [ "row-edxf.37eh-wscg", "00000000-0000-0000-217C-91E68E0FB45E", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2004", "894177012", "712386", "1255" ]
+, [ "row-wh3s~r6eb-wcq7", "00000000-0000-0000-A359-2B367C54BE69", 0, 1668534069, null, 1668534069, null, "{ }", "San Mateo", "2003", "812469359", "717041", "1133" ]
+, [ "row-dnxk.q5nq.s6v7", "00000000-0000-0000-DD0E-941B0FA5FD8F", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2021", "1261039816", "443674", "2842" ]
+, [ "row-fqbs.pjck.b3ds", "00000000-0000-0000-085A-D911B0B94185", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2020", "1137564006", "451840", "2518" ]
+, [ "row-uzh3_jyhb.9ckp", "00000000-0000-0000-2B26-C3C71E15328B", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2019", "1105431671", "454593", "2432" ]
+, [ "row-kryy_hkf7_fjzj", "00000000-0000-0000-A89C-6962CB7CCBBB", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2018", "917615110", "453457", "2024" ]
+, [ "row-2ja4-a9dr_nrfr", "00000000-0000-0000-65F0-738A6F3348ED", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2017", "880935692", "450663", "1955" ]
+, [ "row-kswq~y48y-ytjw", "00000000-0000-0000-35F4-E2188F81E4A1", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2016", "786760668", "446717", "1761" ]
+, [ "row-8r5s.z7s3_iyau", "00000000-0000-0000-F533-81DFF505FC0B", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2015", "767674135", "437643", "1754" ]
+, [ "row-5tgx-3xtd.2csu", "00000000-0000-0000-79B3-0B4EEDB66404", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2014", "703415222", "433398", "1623" ]
+, [ "row-3jgp~acrz~uqay", "00000000-0000-0000-F0DF-400CC407F6FA", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2013", "727377855", "429200", "1695" ]
+, [ "row-r4g7~v3rg_3euv", "00000000-0000-0000-8ECC-D883E033A65B", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2012", "721802445", "427267", "1689" ]
+, [ "row-5pu2_x7t3-56pz", "00000000-0000-0000-9835-50B45DE6905A", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2011", "727551557", "426189", "1707" ]
+, [ "row-ba9q_n4sb_sb5u", "00000000-0000-0000-656C-01D9B7F90E00", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2010", "726248911", "434481", "1672" ]
+, [ "row-66z3~r5ri~hdbx", "00000000-0000-0000-5003-147D8CD2E584", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2009", "706068296", "431312", "1637" ]
+, [ "row-kmch.2spq.bxw9", "00000000-0000-0000-9595-928087C9F1C5", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2008", "725396333", "428655", "1692" ]
+, [ "row-32gu.6gn9_qqq2", "00000000-0000-0000-6E02-057947F6D0B9", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2007", "681974837", "424425", "1607" ]
+, [ "row-hcdy_ft94-w3pt", "00000000-0000-0000-65E9-D6E6308E5346", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2006", "645337661", "421625", "1531" ]
+, [ "row-izq6.rgbc~wve6", "00000000-0000-0000-7441-64692AF778AA", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2005", "624139860", "419260", "1489" ]
+, [ "row-23vs~q32w.bs4q", "00000000-0000-0000-7A37-B0452FA0F5F2", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2004", "561889679", "414796", "1355" ]
+, [ "row-jfew_mdez_wkvd", "00000000-0000-0000-CBE9-F3B9A1B90060", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Barbara", "2003", "525335136", "410277", "1280" ]
+, [ "row-uqw2.ywqn~2qtn", "00000000-0000-0000-CB9C-FC4BE3AF4CAE", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2021", "7866427009", "1907693", "4124" ]
+, [ "row-s7gb-uvxe~cxka", "00000000-0000-0000-F04C-142CB70CD6F7", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2020", "7452842503", "1961969", "3799" ]
+, [ "row-qk5r_7bsc_4zdh", "00000000-0000-0000-3219-054185F217E2", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2019", "6656896820", "1954286", "3406" ]
+, [ "row-7bzc_8v34_zwtr", "00000000-0000-0000-9E11-64C14B9529C6", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2018", "5849545320", "1956598", "2990" ]
+, [ "row-dxbb_e7tv.3usd", "00000000-0000-0000-6E7C-C07527A4BE8B", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2017", "5625107619", "1938180", "2902" ]
+, [ "row-rhuw.tqu9_zakn", "00000000-0000-0000-4B1F-40A366156F98", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2016", "5077915977", "1927888", "2634" ]
+, [ "row-pc9r~dnvr~4xq8", "00000000-0000-0000-756E-DF46AB9C2647", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2015", "4589941453", "1889638", "2429" ]
+, [ "row-yirz~rykf~umh5", "00000000-0000-0000-5E04-2219694918A5", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2014", "3955680734", "1868558", "2117" ]
+, [ "row-cc5v_gqd3.qa2t", "00000000-0000-0000-6840-DA0926345B01", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2013", "4177511573", "1842254", "2268" ]
+, [ "row-6t3x.jn7j.5dtb", "00000000-0000-0000-FD62-E3B4BC465A93", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2012", "3371375572", "1816486", "1856" ]
+, [ "row-v5ep~itdq~8vwr", "00000000-0000-0000-B3E0-3DE3497430EE", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2011", "3524443577", "1797375", "1961" ]
+, [ "row-itqg-bqkg-4ubg", "00000000-0000-0000-1BEB-592090DAD23E", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2010", "3309176671", "1880876", "1759" ]
+, [ "row-hmk8~c2cb_v6qq", "00000000-0000-0000-F2D7-4FF2C86939C8", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2009", "3590999782", "1857621", "1933" ]
+, [ "row-gdcp_ygfi~mhqd", "00000000-0000-0000-2093-E36F6C353F41", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2008", "3216312979", "1837075", "1751" ]
+, [ "row-vgp4~fqr3~xqri", "00000000-0000-0000-8ACF-B32F351AF3D7", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2007", "3096751301", "1808056", "1713" ]
+, [ "row-uira.4zh7.j8ai", "00000000-0000-0000-EE1C-684B36A9AB3B", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2006", "2973264006", "1773258", "1677" ]
+, [ "row-sd8x.yr88-kkx8", "00000000-0000-0000-FB3B-CB46857E6C70", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2005", "2782421072", "1759585", "1581" ]
+, [ "row-dsje_ba2m~s7uy", "00000000-0000-0000-8E3D-A403A38555CB", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2004", "2586774363", "1731422", "1494" ]
+, [ "row-ct4n.aere-x7mm", "00000000-0000-0000-4E1E-C132E1FB3114", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Clara", "2003", "2601486049", "1729917", "1504" ]
+, [ "row-3ziu~3wts.ej9z", "00000000-0000-0000-1B32-162E11ADC687", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2021", "837562218", "266553", "3142" ]
+, [ "row-6jye.cjth.sg76", "00000000-0000-0000-6E83-EC8B5910C0D4", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2020", "709956799", "271233", "2618" ]
+, [ "row-rrw9-pdyh.imrz", "00000000-0000-0000-4ECB-CC3D6A1AC93F", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2019", "665270259", "274871", "2420" ]
+, [ "row-yjad~syvf-bynq", "00000000-0000-0000-821E-80FAF4948EBF", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2018", "598600452", "276864", "2162" ]
+, [ "row-7qc9_9k9x~fewu", "00000000-0000-0000-F3B4-F52A26A9B8AB", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2017", "566813218", "276603", "2049" ]
+, [ "row-8km6~qmi4.q9nv", "00000000-0000-0000-CF08-EDE3A3D1258B", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2016", "460639814", "275902", "1670" ]
+, [ "row-wbe6-bbat~9bj5", "00000000-0000-0000-E3CB-16078402843D", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2015", "442402666", "271646", "1629" ]
+, [ "row-c5r8~6yqf-44x5", "00000000-0000-0000-DAA0-68B2F43183AB", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2014", "419426941", "271595", "1544" ]
+, [ "row-59yn~5qhp_sxwe", "00000000-0000-0000-70B7-C9ACB2B605B0", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2013", "400041675", "266662", "1500" ]
+, [ "row-rpds-wr5f~bhsb", "00000000-0000-0000-7D59-18F9F9870F1F", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2012", "389919669", "265981", "1466" ]
+, [ "row-3z3e~cefn_m63k", "00000000-0000-0000-267A-78186269D55E", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2011", "489190420", "264430", "1850" ]
+, [ "row-dzsf-bnmw_2ha4", "00000000-0000-0000-5143-0846757A5B8B", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2010", "369056621", "272201", "1356" ]
+, [ "row-w3z3.8ezt-98vm", "00000000-0000-0000-7E8D-4C4C864B83BA", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2009", "371429213", "268637", "1383" ]
+, [ "row-esc6-cb7v~sfqn", "00000000-0000-0000-5374-70761AE0D839", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2008", "395343513", "266519", "1483" ]
+, [ "row-v2u8_jmwv~bcvr", "00000000-0000-0000-6890-F76034870EA2", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2007", "380471181", "264125", "1440" ]
+, [ "row-r9h7_xycf~d5un", "00000000-0000-0000-C441-3E0C74C55032", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2006", "359491525", "262351", "1370" ]
+, [ "row-i8hn-2kse.w8t5", "00000000-0000-0000-CEA9-65169FB0FB5F", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2005", "330088664", "260240", "1268" ]
+, [ "row-htcu.8nce-mjuy", "00000000-0000-0000-D6D7-7E8B0E6D11DE", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2004", "304903578", "260218", "1172" ]
+, [ "row-z3jc_wdn8.udix", "00000000-0000-0000-B63C-5008935E22B3", 0, 1668534069, null, 1668534069, null, "{ }", "Santa Cruz", "2003", "296484298", "259844", "1141" ]
+, [ "row-cit5~74z4_zrtv", "00000000-0000-0000-57C7-090D6F77DAA9", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2021", "449526446", "182020", "2470" ]
+, [ "row-jmhu~8zp5~epp4", "00000000-0000-0000-BAF2-938851C3556C", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2020", "377476010", "178045", "2120" ]
+, [ "row-d66q-3pkg-tbsb", "00000000-0000-0000-BCE3-447A44A51A33", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2019", "380377816", "178773", "2128" ]
+, [ "row-7b3z_vz4y-hwre", "00000000-0000-0000-FF2B-9CC5AC848E12", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2018", "364618422", "178271", "2045" ]
+, [ "row-d8pg_xmim-gc4w", "00000000-0000-0000-BB17-6B0C2FE02FBD", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2017", "325291176", "178605", "1821" ]
+, [ "row-8353_wucw~4rc4", "00000000-0000-0000-A748-FD16BF7BA6A2", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2016", "289870881", "178592", "1623" ]
+, [ "row-ieqr~s49x~nfnv", "00000000-0000-0000-531B-808FFEB09FF5", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2015", "279509714", "178673", "1564" ]
+, [ "row-vwrw_tz97_sifj", "00000000-0000-0000-12B7-17C58C70AF3E", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2014", "282125313", "179412", "1572" ]
+, [ "row-eecs_5gqv~de22", "00000000-0000-0000-F952-C21F183E6937", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2013", "285317564", "178601", "1598" ]
+, [ "row-mg53.h8xd-dnkj", "00000000-0000-0000-7249-127E21B6BD7A", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2012", "255221598", "177823", "1435" ]
+, [ "row-am2y.zgkk.rjch", "00000000-0000-0000-5FEB-CCC65639E9C9", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2011", "262906976", "177924", "1478" ]
+, [ "row-ifrs.7n4f~fifa", "00000000-0000-0000-5FE5-B7B4B85474C7", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2010", "275079808", "184247", "1493" ]
+, [ "row-gsg3_qy24~undr", "00000000-0000-0000-47F0-09D02D3F5C8D", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2009", "265601044", "183023", "1451" ]
+, [ "row-r2ak_izbj.45qt", "00000000-0000-0000-3F51-16E5ADB62BBD", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2008", "279264156", "182236", "1532" ]
+, [ "row-r5m4-rpwa.8ym8", "00000000-0000-0000-3666-6AE7FD843E0D", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2007", "263803731", "181401", "1454" ]
+, [ "row-e497_csat.hp4g", "00000000-0000-0000-696F-02B9E5DB1660", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2006", "253265601", "181483", "1396" ]
+, [ "row-rt2m~iphp~v2f7", "00000000-0000-0000-28C6-7999F64043DB", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2005", "233632827", "178197", "1311" ]
+, [ "row-uu5k~vcus.spdz", "00000000-0000-0000-F77A-C22528AC25B7", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2004", "216230408", "175705", "1231" ]
+, [ "row-pds5-7hbx.wgq4", "00000000-0000-0000-95B9-C379EA7BD3E4", 0, 1668534069, null, 1668534069, null, "{ }", "Shasta", "2003", "264971138", "172033", "1540" ]
+, [ "row-5vtt_n3j9~cdrn", "00000000-0000-0000-35E2-CFEE770D221C", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2021", "27871708", "3225", "8642" ]
+, [ "row-q4wc.eak3~r6z5", "00000000-0000-0000-D1E7-5410C3BFD0FA", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2020", "25717884", "3201", "8034" ]
+, [ "row-9s9e-e3pt.5a86", "00000000-0000-0000-4BC8-3AC4D7CDE954", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2019", "22308371", "3213", "6943" ]
+, [ "row-dh9g~uxkh_nmc7", "00000000-0000-0000-9A55-2B0E532B40B7", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2018", "23587214", "3207", "7355" ]
+, [ "row-ugza-6hx3~pc7x", "00000000-0000-0000-2C89-8DA99313B0DD", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2017", "19247389", "3207", "6002" ]
+, [ "row-na4t-wgfs.p7yd", "00000000-0000-0000-B63F-826B8F02F7DB", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2016", "18372274", "3203", "5736" ]
+, [ "row-q49t-4pnm_gvam", "00000000-0000-0000-81E8-B5424D7AEB07", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2015", "17875526", "3105", "5757" ]
+, [ "row-5a4n_hsvn_pd42", "00000000-0000-0000-928E-9100E7EDF61E", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2014", "20672620", "3089", "6692" ]
+, [ "row-9d74.v237.pngf", "00000000-0000-0000-0D52-46722B84363B", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2013", "19153538", "3166", "6050" ]
+, [ "row-z32b~xayw.jq5g", "00000000-0000-0000-35FF-F6C85B138CB5", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2012", "18407013", "3152", "5840" ]
+, [ "row-euxw-nu7h_yip4", "00000000-0000-0000-98F9-0D083CC3C917", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2011", "20446695", "3248", "6295" ]
+, [ "row-haf8.8yqf.iiic", "00000000-0000-0000-0C59-00A765A58595", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2010", "23317701", "3303", "7060" ]
+, [ "row-xi3t-esf2~kb8a", "00000000-0000-0000-6164-F608C7F12351", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2009", "20237321", "3358", "6027" ]
+, [ "row-h85x~eev2~6im7", "00000000-0000-0000-C19E-7E98F1F88DAC", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2008", "18120775", "3380", "5361" ]
+, [ "row-jaku_jk3i~5z82", "00000000-0000-0000-72BD-66D2775210C2", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2007", "17512655", "3485", "5025" ]
+, [ "row-ijp3.jyi2~g9k3", "00000000-0000-0000-979C-395AAE902B0C", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2006", "15353708", "3501", "4386" ]
+, [ "row-f7vw~hdn5.u6yd", "00000000-0000-0000-02B6-85714C6EE2ED", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2005", "13550098", "3538", "3830" ]
+, [ "row-xetw~x5rg~uy25", "00000000-0000-0000-5BF2-8FD97A3ED096", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2004", "13048881", "3524", "3703" ]
+, [ "row-yrp9-szsq~t8b2", "00000000-0000-0000-0A60-6F9F63049ECF", 0, 1668534069, null, 1668534069, null, "{ }", "Sierra", "2003", "14959909", "3515", "4256" ]
+, [ "row-3kyj.8frm~nvma", "00000000-0000-0000-77CE-C1D33F9B8B16", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2021", "125810554", "43931", "2864" ]
+, [ "row-hjsv.7rb3_fv8t", "00000000-0000-0000-F730-AFDEDED3E7A2", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2020", "115368433", "44461", "2595" ]
+, [ "row-vrbi.dufv_j6q5", "00000000-0000-0000-0F3A-A4085490BDB6", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2019", "112614732", "44584", "2526" ]
+, [ "row-9vhm.vt55~8geb", "00000000-0000-0000-14CC-339792232142", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2018", "107583647", "44612", "2412" ]
+, [ "row-zrmx_dkmx~pup4", "00000000-0000-0000-DE97-13F1DA3B3EBA", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2017", "96104592", "44688", "2151" ]
+, [ "row-8ymi-zvnh~4f7a", "00000000-0000-0000-EC6C-6F4FB5ACE1DF", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2016", "88510849", "44739", "1978" ]
+, [ "row-9tck-8ctu_uew8", "00000000-0000-0000-C4AA-F46C7CE81ABD", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2015", "92420912", "45119", "2048" ]
+, [ "row-j3sf_6up9.yrvj", "00000000-0000-0000-5E4A-E3A108718D46", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2014", "90699766", "45231", "2005" ]
+, [ "row-zyjh_ti73.u774", "00000000-0000-0000-924F-E3E99641CFFA", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2013", "84578397", "44796", "1888" ]
+, [ "row-pxve~zgzm~w4w8", "00000000-0000-0000-7F5A-CDC48D404538", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2012", "85769449", "44639", "1921" ]
+, [ "row-mds4_nvdi.axgu", "00000000-0000-0000-EA16-B2A0D100DB8D", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2011", "95626110", "45084", "2121" ]
+, [ "row-amum~7eua-37uc", "00000000-0000-0000-0470-487954AFC3CB", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2010", "102441903", "46010", "2227" ]
+, [ "row-uegs.27u7~65pt", "00000000-0000-0000-E75E-C6E53344150F", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2009", "107494442", "45973", "2338" ]
+, [ "row-vmq4-f8v5~p7g5", "00000000-0000-0000-9FDA-465F4AC4F15E", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2008", "97914978", "45971", "2130" ]
+, [ "row-j2w5_mq3m_cgyb", "00000000-0000-0000-9214-D50B641E5943", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2007", "91151056", "45953", "1984" ]
+, [ "row-iixr.2vay~bp5a", "00000000-0000-0000-A9D6-B0FC982C18ED", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2006", "91533173", "46146", "1984" ]
+, [ "row-2zpe_zm7y-6h6g", "00000000-0000-0000-A07B-CD377DE5CC53", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2005", "89168536", "45819", "1946" ]
+, [ "row-i6d2.4snu-6v47", "00000000-0000-0000-5E6E-D87C451A796A", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2004", "79957793", "44861", "1782" ]
+, [ "row-ef2z-5izd-4f74", "00000000-0000-0000-CAB1-315FE7034F08", 0, 1668534069, null, 1668534069, null, "{ }", "Siskiyou", "2003", "80179574", "44411", "1805" ]
+, [ "row-e49y.t6by_9ay3", "00000000-0000-0000-0423-70AED44393A4", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2021", "896066692", "449964", "1991" ]
+, [ "row-fqcp_nuu9.qv45", "00000000-0000-0000-27D1-1B38E4EEA96A", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2020", "776688963", "440224", "1764" ]
+, [ "row-v9y3.gytn_erni", "00000000-0000-0000-9234-CF0E7D768703", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2019", "778984684", "441307", "1765" ]
+, [ "row-kshh_kx3r_mt2p", "00000000-0000-0000-201C-BCA799752B85", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2018", "762135735", "439793", "1733" ]
+, [ "row-4k4n~6pz3~fk65", "00000000-0000-0000-B6E7-80C408C8DE55", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2017", "713850543", "436023", "1637" ]
+, [ "row-h4bj-ma24.frfv", "00000000-0000-0000-F68E-AD650EF1285D", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2016", "655785885", "431498", "1520" ]
+, [ "row-ehgh~xn2c.dpp4", "00000000-0000-0000-2088-429E35B41B6D", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2015", "601544357", "429552", "1400" ]
+, [ "row-7pze_jpvc~6v54", "00000000-0000-0000-FBE2-72BC0477B7E7", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2014", "584957743", "424233", "1379" ]
+, [ "row-j75i.wrmt_6v32", "00000000-0000-0000-A000-49A640DC3343", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2013", "614609630", "418387", "1469" ]
+, [ "row-jfwv_wh5m-brgr", "00000000-0000-0000-3179-D56C615E9E61", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2012", "527687683", "413786", "1275" ]
+, [ "row-qg6m.gyff~rw6z", "00000000-0000-0000-3EAC-B897AD56CC44", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2011", "560420451", "414509", "1352" ]
+, [ "row-wfr4_z7c5.9cyw", "00000000-0000-0000-A621-EA376941F30B", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2010", "566985334", "427837", "1325" ]
+, [ "row-3x76_8wzu-ya7y", "00000000-0000-0000-E7FB-ECD42D4875B8", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2009", "565610019", "426729", "1325" ]
+, [ "row-rgy2.96ia_sh2v", "00000000-0000-0000-0245-648C02EA394C", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2008", "580546882", "426757", "1360" ]
+, [ "row-urer-ucix.73dy", "00000000-0000-0000-00FB-A3F81335A566", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2007", "566703683", "424823", "1334" ]
+, [ "row-f3uz-tjb3-fx5v", "00000000-0000-0000-29C4-04E6DF019C19", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2006", "597371590", "422848", "1413" ]
+, [ "row-wrig.2y9i~injq", "00000000-0000-0000-1ADC-F4ED57D639CC", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2005", "527756463", "421657", "1252" ]
+, [ "row-xp7v.nmvc-mhbx", "00000000-0000-0000-0075-59CED8D7D67F", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2004", "579758233", "416463", "1392" ]
+, [ "row-c8h8~yk92~6zv6", "00000000-0000-0000-2596-1CE0AC4BFCF3", 0, 1668534069, null, 1668534069, null, "{ }", "Solano", "2003", "611726876", "411967", "1485" ]
+, [ "row-zv56-ggt6~kw27", "00000000-0000-0000-26C4-73907A0B3E53", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2021", "1630964343", "484674", "3365" ]
+, [ "row-dejp-i5tm_r6gr", "00000000-0000-0000-EF2B-4F4AD859D07C", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2020", "1261114099", "492980", "2558" ]
+, [ "row-63hh_d7ed~uz8k", "00000000-0000-0000-09D7-65E8D004B482", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2019", "1266760855", "500675", "2530" ]
+, [ "row-dx6e-6qqn-2i3p", "00000000-0000-0000-3C94-36F5021797B2", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2018", "1195437939", "503332", "2375" ]
+, [ "row-sbu2~b56j_6enz", "00000000-0000-0000-652C-F6B3238D86A1", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2017", "1070620681", "505120", "2120" ]
+, [ "row-5x6u.g2ay_dejv", "00000000-0000-0000-9248-F067FD8B90ED", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2016", "897391618", "501959", "1788" ]
+, [ "row-459k_5qkp.yfs9", "00000000-0000-0000-7D7E-A75F395AC2F3", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2015", "869159373", "496253", "1751" ]
+, [ "row-5m5p.a3wu.gpfc", "00000000-0000-0000-9085-2EB7DA47E104", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2014", "872800335", "490486", "1779" ]
+, [ "row-mj8y.tr36_ugme", "00000000-0000-0000-9FCB-174281BD9528", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2013", "807618219", "490423", "1647" ]
+, [ "row-dvvc~disg-c324", "00000000-0000-0000-2B84-B0C221FF028F", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2012", "764467267", "487011", "1570" ]
+, [ "row-rd8b.jusk-6t3s", "00000000-0000-0000-A2A8-5DC8B82D19DE", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2011", "788060843", "487125", "1618" ]
+, [ "row-iu2r-3jui_b9n9", "00000000-0000-0000-97B3-7DE8E3713AD7", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2010", "800224980", "493285", "1622" ]
+, [ "row-zd4s-w4ka_dynu", "00000000-0000-0000-BADE-FF7297BEE4DE", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2009", "734970854", "486630", "1510" ]
+, [ "row-pmhj-2uzb~vv5e", "00000000-0000-0000-FF41-39FC4F085E3B", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2008", "825314224", "484470", "1704" ]
+, [ "row-khsj~uv45.aqsq", "00000000-0000-0000-E6DA-F7A34A60D6ED", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2007", "717437137", "481765", "1489" ]
+, [ "row-8bcn~2xse_gjji", "00000000-0000-0000-6FA4-14A675FEFEAA", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2006", "677260837", "479929", "1411" ]
+, [ "row-dgpv~ijrm_rax5", "00000000-0000-0000-4A0C-93A4420E06E3", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2005", "653415998", "478440", "1366" ]
+, [ "row-uvu5~dnje-w7g6", "00000000-0000-0000-986D-D61323DF4722", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2004", "607397257", "472725", "1285" ]
+, [ "row-6fqu_h24a-9aat", "00000000-0000-0000-28C0-60CC968BC34A", 0, 1668534069, null, 1668534069, null, "{ }", "Sonoma", "2003", "571678294", "472686", "1209" ]
+, [ "row-8nyk-jjqy~9rt3", "00000000-0000-0000-4027-164CED4C1380", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2021", "1383826748", "551737", "2508" ]
+, [ "row-3g4n.s2qz~ui9z", "00000000-0000-0000-47EB-ACB8E9DA3601", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2020", "1417590466", "557709", "2542" ]
+, [ "row-pn2i.ygwi~i4mv", "00000000-0000-0000-D8C0-E28A9B0711D5", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2019", "1180957213", "558972", "2113" ]
+, [ "row-jx2c~ty7u-pcub", "00000000-0000-0000-ADBC-07B92850DBF6", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2018", "1106325374", "555624", "1991" ]
+, [ "row-ftui-rxu8.9b4y", "00000000-0000-0000-9839-FF2E089CD9CA", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2017", "1039155522", "548057", "1896" ]
+, [ "row-r23h_sv7q~brq2", "00000000-0000-0000-4A62-A71C72CD7A0E", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2016", "888198544", "540214", "1644" ]
+, [ "row-p2z9-e6kv.bked", "00000000-0000-0000-26A5-3828AE7D9E69", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2015", "818809796", "532297", "1538" ]
+, [ "row-hwn3.ngwa.une2", "00000000-0000-0000-4385-5A2017C1B90B", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2014", "776130194", "526042", "1475" ]
+, [ "row-vh79-a32p-syxy", "00000000-0000-0000-AEBC-75108F3B94E8", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2013", "744277116", "524124", "1420" ]
+, [ "row-2gr8_baqw.xis7", "00000000-0000-0000-B111-79BC768C7A5E", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2012", "691605486", "519940", "1330" ]
+, [ "row-3ibt.gjua.4dck", "00000000-0000-0000-17B0-C811215226D4", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2011", "726642911", "517685", "1404" ]
+, [ "row-67er-8t8k_pmbm", "00000000-0000-0000-529D-9DB7BE322FB6", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2010", "714741997", "530584", "1347" ]
+, [ "row-598p~4ur5~yqy3", "00000000-0000-0000-D469-C8DB72A4781A", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2009", "713856333", "526383", "1356" ]
+, [ "row-rwx3_5rvy.yccz", "00000000-0000-0000-CD61-62D9F95C3CCD", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2008", "759437656", "525903", "1444" ]
+, [ "row-ttbq-srcv.eemg", "00000000-0000-0000-E074-0C2573A8964D", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2007", "728223688", "521497", "1396" ]
+, [ "row-gm2t~53bp~yy7u", "00000000-0000-0000-DCE5-3B7AFB298825", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2006", "759854717", "514370", "1477" ]
+, [ "row-xxmy_7ksa_2vav", "00000000-0000-0000-A054-1D69758E4205", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2005", "660072555", "504482", "1308" ]
+, [ "row-6c8f_yh3t~2mn8", "00000000-0000-0000-AF43-EA074D80F472", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2004", "668101705", "491929", "1358" ]
+, [ "row-t3tu_35b6-kzyh", "00000000-0000-0000-15C8-DB0033B2B267", 0, 1668534069, null, 1668534069, null, "{ }", "Stanislaus", "2003", "603503091", "481604", "1253" ]
+, [ "row-hia8-w9e7~y4br", "00000000-0000-0000-1B57-D3A6B8A6A6C0", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2021", "245803072", "98908", "2485" ]
+, [ "row-tgif~agtj_xhcx", "00000000-0000-0000-326E-D896E30CF1B1", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2020", "219836204", "100750", "2182" ]
+, [ "row-6mmn~bfam~fvtv", "00000000-0000-0000-BABC-E7426047E3F6", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2019", "236018824", "97490", "2421" ]
+, [ "row-d2x6~yasw-zg4c", "00000000-0000-0000-5A4B-D3FA4EBD3345", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2018", "193095959", "97238", "1986" ]
+, [ "row-vfqs-x6qw~p8wy", "00000000-0000-0000-6AE8-63BD8B82FB8B", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2017", "161056973", "96956", "1661" ]
+, [ "row-j5ru.h4k4~zw9e", "00000000-0000-0000-55A1-B3B1E0747767", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2016", "147910514", "97308", "1520" ]
+, [ "row-9uav-sq2z_ahcy", "00000000-0000-0000-31A5-B919BEE8A36C", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2015", "147462224", "95948", "1537" ]
+, [ "row-22mi.xmcs~akmk", "00000000-0000-0000-D28A-7EBA0D01BB21", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2014", "142945835", "95733", "1493" ]
+, [ "row-9j7t_c5e9.7jst", "00000000-0000-0000-1D13-CF656C0C3AD4", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2013", "143270117", "95851", "1495" ]
+, [ "row-z4y4.74wj~uk3u", "00000000-0000-0000-7FE2-7B2C19FB3B07", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2012", "136502679", "95065", "1436" ]
+, [ "row-m9zn.nbzf_qg53", "00000000-0000-0000-401A-02548CD1C8F2", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2011", "135588601", "95800", "1415" ]
+, [ "row-bgcn~eqsr.isnz", "00000000-0000-0000-A73D-CF1553B0404C", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2010", "131230645", "99154", "1324" ]
+, [ "row-x6be-7wa6.ujex", "00000000-0000-0000-2A16-A33D521C6344", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2009", "138115558", "96554", "1430" ]
+, [ "row-kp7t_38au-mdyq", "00000000-0000-0000-E941-DEE66CC45482", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2008", "137892779", "95878", "1438" ]
+, [ "row-56nb.pyjt.788w", "00000000-0000-0000-B08A-A61C8B6632D7", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2007", "130956585", "93919", "1394" ]
+, [ "row-zhb2_pw83~hyqz", "00000000-0000-0000-5B74-F5CA31FA96C9", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2006", "120587771", "91450", "1319" ]
+, [ "row-f299_8rnd_tg36", "00000000-0000-0000-8CEA-18CADDC3581B", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2005", "110728260", "88945", "1245" ]
+, [ "row-vfqq-qu8n_fytt", "00000000-0000-0000-88B4-043582934E49", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2004", "102810779", "85511", "1202" ]
+, [ "row-fcrs_sm9g~p4ah", "00000000-0000-0000-17D0-AC3FEEFE1E0F", 0, 1668534069, null, 1668534069, null, "{ }", "Sutter", "2003", "97981112", "83241", "1177" ]
+, [ "row-ku5d~vp72.zcpp", "00000000-0000-0000-28AA-ECE35EA699F4", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2021", "167331428", "65374", "2560" ]
+, [ "row-cf4r~4fq5-jrqc", "00000000-0000-0000-9E63-5CFAB2041F4F", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2020", "151252671", "65129", "2322" ]
+, [ "row-tcia-gxvj~errf", "00000000-0000-0000-EBFC-1201E077195E", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2019", "141114148", "64387", "2192" ]
+, [ "row-538w-52nq_hurh", "00000000-0000-0000-F7E7-7B053E066A80", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2018", "129771624", "64039", "2026" ]
+, [ "row-besr.fyki-6n39", "00000000-0000-0000-08E0-BEB6C6E8C019", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2017", "129744232", "63995", "2027" ]
+, [ "row-vnt6.75x3-t2jc", "00000000-0000-0000-04CC-761A452CD3F6", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2016", "112894969", "63934", "1766" ]
+, [ "row-cfm5~4pkt-fkrm", "00000000-0000-0000-5763-7362D3595639", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2015", "113479286", "64323", "1764" ]
+, [ "row-uh4d~myuz-qw5b", "00000000-0000-0000-6A94-B85649A259BD", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2014", "122148170", "63717", "1917" ]
+, [ "row-em2a_rgf5_jfnj", "00000000-0000-0000-7C2E-49F1639D8E34", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2013", "103104029", "63772", "1617" ]
+, [ "row-qwp8.qtek~8vgq", "00000000-0000-0000-972C-111D9AF482E2", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2012", "95863453", "63177", "1517" ]
+, [ "row-fwfj_eptr.eg82", "00000000-0000-0000-F54A-C56CEAF3D8CD", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2011", "102203350", "63950", "1598" ]
+, [ "row-86eq_uxq2.6b5t", "00000000-0000-0000-18AF-496DE046509C", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2010", "95880847", "63100", "1520" ]
+, [ "row-ga4p~xw5d~58sf", "00000000-0000-0000-821E-6B01E56829D2", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2009", "100817216", "62836", "1604" ]
+, [ "row-avuz.rzhx~7j45", "00000000-0000-0000-5F53-F7BE5ED19C5A", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2008", "104510431", "62419", "1674" ]
+, [ "row-ym6c_rnjz~sshj", "00000000-0000-0000-B1EA-4F321BE87115", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2007", "96776867", "61774", "1567" ]
+, [ "row-t9ns~ca8r.n2z4", "00000000-0000-0000-9EFF-A36D55690ACF", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2006", "96808359", "61533", "1573" ]
+, [ "row-exee_a7ji_8262", "00000000-0000-0000-907E-836142D87D34", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2005", "86355170", "60019", "1439" ]
+, [ "row-tbqh.wit6_eabb", "00000000-0000-0000-E45A-ECFF7DE13F0A", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2004", "84068621", "58742", "1431" ]
+, [ "row-66e6-u4zu-juud", "00000000-0000-0000-A431-B3CC46131AE6", 0, 1668534069, null, 1668534069, null, "{ }", "Tehama", "2003", "99352604", "57684", "1722" ]
+, [ "row-spf4.gypr_c6pd", "00000000-0000-0000-42A6-B9567B2602D6", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2021", "80875428", "16050", "5039" ]
+, [ "row-xjcu.euid.jd5p", "00000000-0000-0000-DD2C-DAFADDB92C5E", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2020", "74630228", "13548", "5509" ]
+, [ "row-2vdp_8zht.sqv9", "00000000-0000-0000-0915-BCBDACC1A36A", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2019", "60099392", "13688", "4391" ]
+, [ "row-5vja-ksyc.m9ay", "00000000-0000-0000-B3B9-A846323EE4D2", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2018", "61360368", "13635", "4500" ]
+, [ "row-ua9v~p3jj-3qv2", "00000000-0000-0000-80CE-CD287DD34B73", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2017", "52351633", "13628", "3841" ]
+, [ "row-tag7.f39f.dga2", "00000000-0000-0000-6913-677706AE8905", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2016", "55094161", "13667", "4031" ]
+, [ "row-gfvj~b4sz_5b4v", "00000000-0000-0000-01CF-AF219F4BE368", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2015", "50487997", "13571", "3720" ]
+, [ "row-35xw.78x8~y76z", "00000000-0000-0000-60E6-4E303E65F944", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2014", "46641275", "13389", "3484" ]
+, [ "row-v5dc-u2ha.x5za", "00000000-0000-0000-5857-C2A78A4B1C55", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2013", "41344852", "13443", "3076" ]
+, [ "row-baiu.439j-6bhd", "00000000-0000-0000-C903-9F4075890477", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2012", "38879340", "13722", "2833" ]
+, [ "row-m8rm~ibcv-aezz", "00000000-0000-0000-4E5B-8BAADC019135", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2011", "39764045", "13853", "2870" ]
+, [ "row-g94s_s5xz~yiam", "00000000-0000-0000-02A7-020FF0137D8A", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2010", "40785338", "13898", "2935" ]
+, [ "row-kc3q.szdh-kjar", "00000000-0000-0000-57D8-7AFE7F49B534", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2009", "46979739", "13959", "3366" ]
+, [ "row-ctv9-xffi~zhae", "00000000-0000-0000-80DC-E9DEB60A4ABB", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2008", "51607738", "13966", "3695" ]
+, [ "row-hjb5-ayem-z4ir", "00000000-0000-0000-40BC-0EC155041BA8", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2007", "44026270", "14171", "3107" ]
+, [ "row-u5sg~kekb.xxvr", "00000000-0000-0000-2AB9-9AFFCAF839B8", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2006", "42010140", "14024", "2996" ]
+, [ "row-pgg9_48ut~jysg", "00000000-0000-0000-6273-4117D83553E7", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2005", "46863102", "13749", "3408" ]
+, [ "row-3xu7.qbip_89yc", "00000000-0000-0000-05F5-7FC5A08F3A73", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2004", "47130197", "13455", "3503" ]
+, [ "row-ndte.bfiw~a78p", "00000000-0000-0000-0DDF-DCF98BF3C295", 0, 1668534069, null, 1668534069, null, "{ }", "Trinity", "2003", "46358449", "13319", "3481" ]
+, [ "row-9zbq.h2fb.tb9q", "00000000-0000-0000-57EF-67AE6760447B", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2021", "1117644563", "474032", "2358" ]
+, [ "row-tkjx-fiu9-4j9y", "00000000-0000-0000-DE3D-5A1F74F7341A", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2020", "1014043584", "479977", "2113" ]
+, [ "row-xipq_z6hp.jy54", "00000000-0000-0000-80AC-E63D02E50110", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2019", "1007063062", "479112", "2102" ]
+, [ "row-4qhi.ubxu_2pfd", "00000000-0000-0000-55CE-4304CAA130F7", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2018", "907474356", "475834", "1907" ]
+, [ "row-hm4p_wx2g_kmsc", "00000000-0000-0000-2D1C-E7F7826134F1", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2017", "833047726", "471842", "1766" ]
+, [ "row-x68e_4wvs~dt8h", "00000000-0000-0000-6410-7A6BA355BD6D", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2016", "750322651", "466339", "1609" ]
+, [ "row-fi6d-ij4h_mdeh", "00000000-0000-0000-7A23-EBEDF6B071E6", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2015", "711263207", "462189", "1539" ]
+, [ "row-scni_pij5.rzeu", "00000000-0000-0000-5452-E42EA8F50C54", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2014", "689923821", "459446", "1502" ]
+, [ "row-ej74~bduy_uffi", "00000000-0000-0000-BC29-D8ACEB20813A", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2013", "669540337", "455599", "1470" ]
+, [ "row-jheu.cpj8_49ye", "00000000-0000-0000-5BA1-C0E5858A4543", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2012", "667133295", "450840", "1480" ]
+, [ "row-h5d9.yqgt~ftra", "00000000-0000-0000-A437-A30477507923", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2011", "660327241", "446837", "1478" ]
+, [ "row-d7fc~sv5u.22he", "00000000-0000-0000-9798-20EB5342B92F", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2010", "646236044", "447814", "1443" ]
+, [ "row-gw9t.8xav.k9f2", "00000000-0000-0000-95A1-0EBC23D62C1A", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2009", "659113055", "441481", "1493" ]
+, [ "row-5eu8_cm9p.kd32", "00000000-0000-0000-3230-1EEB25A23E68", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2008", "631169737", "435254", "1450" ]
+, [ "row-z3hk-nmhz-f68r", "00000000-0000-0000-96CB-0DB7D8825D20", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2007", "612999440", "429006", "1429" ]
+, [ "row-gtbb_n2k2_wirs", "00000000-0000-0000-0BAF-C219FD56072F", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2006", "565540747", "420619", "1345" ]
+, [ "row-y5pm.p25y~8nwe", "00000000-0000-0000-54B4-2053DAFA4566", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2005", "528778672", "409871", "1290" ]
+, [ "row-sf7u_jh7b.2bqg", "00000000-0000-0000-6447-590C0A228B29", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2004", "498314353", "396828", "1256" ]
+, [ "row-a6ed_xp7i.ihet", "00000000-0000-0000-63BA-4C308B83C610", 0, 1668534069, null, 1668534069, null, "{ }", "Tulare", "2003", "490357016", "386246", "1270" ]
+, [ "row-gdgg-33jx-5tyn", "00000000-0000-0000-EAE4-6EA4CE8D293F", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2021", "173471278", "54791", "3166" ]
+, [ "row-zgmj~kd2e-me6v", "00000000-0000-0000-3078-4412EE474268", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2020", "178154387", "54917", "3244" ]
+, [ "row-cw4v.rmf9.7axk", "00000000-0000-0000-6CAC-CEFF40E6188F", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2019", "176162121", "54590", "3227" ]
+, [ "row-vfye.9cf8~dgwa", "00000000-0000-0000-A7AE-EEC15AAFF4CF", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2018", "153248781", "54740", "2800" ]
+, [ "row-h92w.tuqv-p49b", "00000000-0000-0000-378B-36462DBE10FF", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2017", "146765324", "54707", "2683" ]
+, [ "row-dr4m_qrj2_73ia", "00000000-0000-0000-88A9-3B013563F6DA", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2016", "119346186", "54900", "2174" ]
+, [ "row-dpde~nx9y-rhtn", "00000000-0000-0000-E30A-0D8EEA620585", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2015", "115533216", "54337", "2126" ]
+, [ "row-gd9t-4u9n-wf3t", "00000000-0000-0000-FEE4-5F2325CAEB61", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2014", "103434997", "53604", "1930" ]
+, [ "row-ckms.x9ez-xnx7", "00000000-0000-0000-FCFF-37F458B6DFB7", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2013", "100646436", "54360", "1851" ]
+, [ "row-fsju-kibs-azpj", "00000000-0000-0000-6416-367B10591518", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2012", "103688846", "53834", "1926" ]
+, [ "row-pmv5_mwki-rk2c", "00000000-0000-0000-4A4C-F29E36008A8E", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2011", "106084301", "55256", "1920" ]
+, [ "row-nvp8~mtpm.buw3", "00000000-0000-0000-FEC3-17F9CB06ADDD", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2010", "109759122", "56086", "1957" ]
+, [ "row-sbg2-wg8r.wjhy", "00000000-0000-0000-2960-4D564C93CAED", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2009", "114100281", "56335", "2025" ]
+, [ "row-uqay~8mgb~984e", "00000000-0000-0000-AD1C-2A14550E0086", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2008", "119292172", "56799", "2100" ]
+, [ "row-gh8y_hm5s-mbrm", "00000000-0000-0000-4250-0BC472F999A5", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2007", "140880254", "57223", "2462" ]
+, [ "row-e5te.ns3h_jfv2", "00000000-0000-0000-756F-FB8970D998EE", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2006", "127874946", "58231", "2196" ]
+, [ "row-gwbf_gpuz-z4bh", "00000000-0000-0000-C7A5-8E7246CCB898", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2005", "114047955", "58504", "1949" ]
+, [ "row-93dj_ip24_rr7g", "00000000-0000-0000-E3E4-74584689BD53", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2004", "112025926", "56946", "1967" ]
+, [ "row-vxe6.jci6_nzb3", "00000000-0000-0000-1FF1-A13B6B746439", 0, 1668534069, null, 1668534069, null, "{ }", "Tuolumne", "2003", "103969526", "56473", "1841" ]
+, [ "row-6h69~j8qp_ud8s", "00000000-0000-0000-2B4B-9B7364451065", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2021", "2697935569", "840093", "3211" ]
+, [ "row-dvxy_ns9v_cahi", "00000000-0000-0000-68D3-8287AA4171B3", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2020", "2402570115", "842886", "2850" ]
+, [ "row-pwxy.ut2g-zja9", "00000000-0000-0000-2AF2-7B68FA7789DE", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2019", "2338009501", "856598", "2729" ]
+, [ "row-3npk-wna5.vkdf", "00000000-0000-0000-73C5-CEE462484EA1", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2018", "1993356302", "859073", "2320" ]
+, [ "row-i27n.nhm4-mcdt", "00000000-0000-0000-6984-4B4A028FCD1D", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2017", "1900770086", "857386", "2217" ]
+, [ "row-66ad~528p.223w", "00000000-0000-0000-DFE8-0A329E177847", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2016", "1545674626", "856508", "1805" ]
+, [ "row-cr5j_rsxv~tgis", "00000000-0000-0000-BFD1-A086BAC62C70", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2015", "1507676039", "848073", "1778" ]
+, [ "row-xuvg_v8k2.rgme", "00000000-0000-0000-6C32-82AC274711B3", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2014", "1461065531", "842967", "1733" ]
+, [ "row-3smc~8tfz_mj8x", "00000000-0000-0000-BBE8-16B397B37DB4", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2013", "1378237404", "835436", "1650" ]
+, [ "row-m9dd.gce3~iiff", "00000000-0000-0000-4A20-0BDA77171685", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2012", "1328768893", "832970", "1595" ]
+, [ "row-zxn8-szwu_a97u", "00000000-0000-0000-4E30-7E5446F7A52C", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2011", "1346461638", "828383", "1625" ]
+, [ "row-8ihv_g3z7-kwhg", "00000000-0000-0000-44C1-6E00D4BF09B5", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2010", "1253259525", "844713", "1484" ]
+, [ "row-vy8t.w78n-wj2p", "00000000-0000-0000-8A52-6DF9694D2DBB", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2009", "1242658667", "836080", "1486" ]
+, [ "row-gvtm~7mpg-n894", "00000000-0000-0000-399B-12F822AB4C56", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2008", "1204782462", "831587", "1449" ]
+, [ "row-2t6q.dm8a.mzvp", "00000000-0000-0000-81A8-1734D4E0150F", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2007", "1135269365", "825512", "1375" ]
+, [ "row-y2ww~v65h~34ew", "00000000-0000-0000-7D6A-A881BBB6CDD6", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2006", "1044952155", "817346", "1278" ]
+, [ "row-yjia-9wf7~738c", "00000000-0000-0000-FDB5-C2EB08BC4F57", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2005", "949797941", "813052", "1168" ]
+, [ "row-anj3~ipus-xdia", "00000000-0000-0000-9425-DC172E416780", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2004", "907388065", "802436", "1131" ]
+, [ "row-anuf-4qan~pcku", "00000000-0000-0000-64D2-11A93A6DCDF8", 0, 1668534069, null, 1668534069, null, "{ }", "Ventura", "2003", "882725441", "791310", "1116" ]
+, [ "row-igzt~3bzd~gx7i", "00000000-0000-0000-1BE4-4CC73D3BD0CC", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2021", "494055587", "217237", "2274" ]
+, [ "row-f582_sfyd-k9ww", "00000000-0000-0000-D628-CCBF957E9821", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2020", "444069628", "221705", "2003" ]
+, [ "row-jm53_8pip~qger", "00000000-0000-0000-2594-54E88F4C5B5C", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2019", "427372305", "222581", "1920" ]
+, [ "row-ntm8-ixxq-s9gm", "00000000-0000-0000-0BA5-6BAFF3B406CE", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2018", "388966661", "221270", "1758" ]
+, [ "row-t2bi.gu6p.cvki", "00000000-0000-0000-C571-49718EBFEB60", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2017", "329855079", "218896", "1507" ]
+, [ "row-866a-scgr-mdwz", "00000000-0000-0000-3AAA-049E513FA223", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2016", "312607775", "214555", "1457" ]
+, [ "row-j9yg-siin_dv5y", "00000000-0000-0000-8A26-2995654736BA", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2015", "282337607", "209393", "1348" ]
+, [ "row-a5rp_35k8.6cya", "00000000-0000-0000-3A95-5AB48665A12D", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2014", "290297398", "206381", "1407" ]
+, [ "row-bpz6_qa4c.n6hh", "00000000-0000-0000-347A-7CA5C6BA8902", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2013", "287170871", "205999", "1394" ]
+, [ "row-s3xa.297x.pw2i", "00000000-0000-0000-4D70-18C8988A880C", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2012", "244718017", "202133", "1211" ]
+, [ "row-4aea~ufgk-jkzq", "00000000-0000-0000-5C5F-277ABA1A06BA", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2011", "261437981", "201759", "1296" ]
+, [ "row-eqci~b6nu_aixv", "00000000-0000-0000-18D7-5301E283EA01", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2010", "255698614", "202953", "1260" ]
+, [ "row-fb4k.gpgx.bcv9", "00000000-0000-0000-B262-B8A864801675", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2009", "258644342", "200709", "1289" ]
+, [ "row-2p8m~dg62~bzbp", "00000000-0000-0000-08F3-BB4960319A67", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2008", "258615961", "199066", "1299" ]
+, [ "row-asf3-dpm8_suu6", "00000000-0000-0000-0ED0-444C4A83711C", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2007", "251276651", "193983", "1295" ]
+, [ "row-3s49-2fbg_qydr", "00000000-0000-0000-36F1-D1912CEAE448", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2006", "226857392", "190344", "1192" ]
+, [ "row-u22n.berh~qhq9", "00000000-0000-0000-1E25-E38B4F5AE364", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2005", "216190807", "187743", "1152" ]
+, [ "row-shac-6swv_re2s", "00000000-0000-0000-C706-413E1E196FD0", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2004", "195571410", "184487", "1060" ]
+, [ "row-dfdh~w8z3_kcj8", "00000000-0000-0000-081A-5A4E92FCEF99", 0, 1668534069, null, 1668534069, null, "{ }", "Yolo", "2003", "220687939", "181291", "1217" ]
+, [ "row-qd86.ifaa.eq2d", "00000000-0000-0000-41F7-5425D564063A", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2021", "275192261", "81988", "3356" ]
+, [ "row-8e55_aiq2~mwxh", "00000000-0000-0000-2F66-38523B02FBE4", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2020", "257007735", "78887", "3258" ]
+, [ "row-tnxw_89sj_evm6", "00000000-0000-0000-10AF-1F8328F7948D", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2019", "223336366", "77916", "2866" ]
+, [ "row-ygfr_8rqy~f6mr", "00000000-0000-0000-B49E-9FC49F7F1DB5", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2018", "201513652", "74727", "2697" ]
+, [ "row-7mpy-uip9.h2wn", "00000000-0000-0000-09D2-A41EEE439EC4", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2017", "171928957", "74577", "2305" ]
+, [ "row-sm62_z9t5-hbnj", "00000000-0000-0000-70C3-1FA1304D14CB", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2016", "169254751", "74345", "2277" ]
+, [ "row-2u5u.afci~bdf9", "00000000-0000-0000-4C6E-882635E42E50", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2015", "174267866", "74076", "2353" ]
+, [ "row-8svc.8rup~72h2", "00000000-0000-0000-8584-579A793B8B2D", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2014", "146826986", "73682", "1993" ]
+, [ "row-5ucz.w77k~kfgc", "00000000-0000-0000-2671-54CDA2E3D52F", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2013", "139896418", "73439", "1905" ]
+, [ "row-paeu~255t-njf7", "00000000-0000-0000-72E3-A8EACE5FDC43", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2012", "115470037", "72615", "1590" ]
+, [ "row-qrhk~r3g4_k5ib", "00000000-0000-0000-3860-237685DDE99A", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2011", "127209003", "72479", "1755" ]
+, [ "row-4zae.mtc6-hvtt", "00000000-0000-0000-2172-0E02F1C899D9", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2010", "120963822", "73380", "1648" ]
+, [ "row-c5ew-hvrs.2zc8", "00000000-0000-0000-18FF-42E39C5EC5B0", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2009", "126559988", "72900", "1736" ]
+, [ "row-keju_hki9~9f7f", "00000000-0000-0000-6A25-E0CAD3349138", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2008", "137237423", "71929", "1908" ]
+, [ "row-mscd.2r7r-qem9", "00000000-0000-0000-5F4F-17076D904B01", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2007", "126481406", "70745", "1788" ]
+, [ "row-8in6.xtej.ut2c", "00000000-0000-0000-FEE2-04C2675C694F", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2006", "120119483", "69827", "1720" ]
+, [ "row-cukp~j9t9-vae3", "00000000-0000-0000-E708-FC4D05AFAC4E", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2005", "100090654", "66734", "1500" ]
+, [ "row-wx5d_nu5n.uddm", "00000000-0000-0000-FAC5-7B16D5250547", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2004", "96186352", "64840", "1483" ]
+, [ "row-w45r_6xa7~fgbg", "00000000-0000-0000-365A-6D2A5F037E51", 0, 1668534069, null, 1668534069, null, "{ }", "Yuba", "2003", "103401286", "62847", "1645" ]
+ ]
+}
